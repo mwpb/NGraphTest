@@ -9,96 +9,25 @@ open NGraphics
 open Formulas
 open Xamarin.RangeSlider.Forms
 open XamarinHelpers
-
-type P(x:Formula,y:Formula) =
-    member t.X = x
-    member t.Y = y
-    member t.Ev (evalMap:Map<char,Result>) =
-        let xnew = t.X.toFl(evalMap)
-        let ynew = t.Y.toFl(evalMap)
-        P(xnew,ynew)
-    new(x,y) = P(Float x, Float y)
-
-type Graphic =
-    | Plot of Formula
-    //| Implicit of Formula //tbd
-    //| Point of Formula*Formula
-    //| Line of Point * Point
-    | Segment of P*P
-    //| Polygon of Point list
-    //| Circle of (Formula*Formula)* Formula
-    static member plot s = Plot (TeX.Parse.parse s).Value
-
-
-
-type BoundingBox() =
-    member val XMin = Float -10.0 with get, set
-    member val XMax = Float +10.0 with get, set
-    member val YMin = Float -(10.0) with get, set
-    member val YMax = Float +10.0 with get, set
-    member t.Width = t.XMax - t.XMin
-    member t.Height = t.YMax - t.YMin
-
-type GraphGrid() =
-    member val ShowAxes = true with get, set
-    member val ShowGrid = true with get, set
-    member val GridXSep = 0.1 with get, set
-    member val GridYSep = 0.1 with get, set
-    member val AxisXSep = 1.0 with get, set
-    member val AxisYSep = 1.0 with get, set
-
-type GSlider(variable: char,min:float,initial:float,max:float) =
-    member t.Variable = variable
-    member t.Min = min
-    member t.Max = max
-    member t.Initial = initial
-    static member Default = GSlider('k',0.,0.,1.)
+open GraphTypes
 
 type MathSlider(g:GSlider) =
     inherit ContentView()
     let mutable currentValue = g.Initial
     let s = Slider(Minimum = 0.0,Maximum = 1000.0)
-    //let changed = new Event<char*float>()
-    //Event.add (fun )
-    //changed.add
-    //[<CLIEvent>]
-    do s.ValueChanged.Add(fun e ->
-        let s = e.NewValue/1000.
-        currentValue <- (1.-s)* g.Min + s * g.Max)
 
     do base.Content <- s
     // actually expose an event with eventargs = Variable * value
     member t.Changed = s.ValueChanged
     member t.Variable = g.Variable
     member t.CurrentValue = currentValue
-    // disable label
-    //let stack = StackLayout(Orientation = Horizontal)
-
-//type Line(startPoint:P,endPoint:P) =
-//    member val StartPoint = startPoint with get, set
-//    member val EndPoint = endPoint with get, set
-//    member t.Ev (evalMap:Map<char,Result>) =
-//        let s,e = t.StartPoint, t.EndPoint
-//        Line(s.Ev(evalMap),e.Ev(evalMap))
-
-type Graph(graphics: Graphic list, bb: BoundingBox, grid: GraphGrid) =
-    member t.Graphics = graphics
-    member t.BB = bb
-    member t.Grid = grid
+    member t.Min = g.Min
+    member t.Max = g.Max
 
 type NGraphView(initParams: (char*float) list, graphDef: Graph) as self =
     inherit NControlView(BackgroundColor = Color.White)
     let graphics, bb, grid = graphDef.Graphics, graphDef.BB, graphDef.Grid
-//    let mutable evalMal = ['k',slider.Value |> FL]
-//    let mutable evalMap = evalList |> Map.ofList
     let mutable paramMap = initParams
-//    do  slider.ValueChanged.Add(
-//            fun x ->
-//                let input = (x.NewValue |> float )/1000.0
-//                evalList <- ['k',input |> FL]
-//                evalMap <- evalList |> Map.ofList
-//                self.Invalidate()
-//                )
     let evFl (f:Formula) (m:(char * float) list) =
         m
         |> List.map (function (c, f) -> (c, FL f))
@@ -115,7 +44,7 @@ type NGraphView(initParams: (char*float) list, graphDef: Graph) as self =
             Point(evFl newX paramMap, evFl newY paramMap)
         
         let draw = function
-            | Plot f ->
+            | GPlot (f,c) ->
                 let wholeMap (input:float) = (['x',input] @ paramMap)
                 let pathOpList = System.Collections.Generic.List<PathOp>()
                 let stepSize = (evFl bb.Width paramMap)/100.0
@@ -124,17 +53,58 @@ type NGraphView(initParams: (char*float) list, graphDef: Graph) as self =
                 let xs = [0..100] |> List.map (fun i -> xmin + (float i)*stepSize)
                 for x in xs do
                     pathOpList.Add(LineTo(toPoint(P(x, evFl f (wholeMap x)))))
-                canvas.DrawPath(pathOpList,Pens.DarkGray.WithWidth(3.0))
-            | Segment (p1,p2) ->
-                canvas.DrawLine(toPoint(p1), toPoint(p2),NGraphics.Colors.Blue)
+                let pen = Pen(c).WithWidth(3.0)
+                canvas.DrawPath(pathOpList,pen)
+            | GSegment (p1,p2,c) ->
+                let pen = Pen().WithWidth(3.0).WithColor(c)
+                canvas.DrawLine(toPoint(p1), toPoint(p2),pen)
 
         let createAxes() =
-            let midLeft = P(bb.XMin,Float 0.0) |> toPoint
-            let midRight = P(bb.XMax,Float 0.0) |> toPoint
-            let midBottom = P(Float 0.0,bb.YMin) |> toPoint
-            let midTop = P(Float 0.0,bb.YMax) |> toPoint
-            canvas.DrawLine(midLeft,midRight, NGraphics.Colors.Black);
-            canvas.DrawLine(midBottom,midTop, NGraphics.Colors.Black);
+            if grid.ShowAxes then
+                let midLeft = P(bb.XMin,Float 0.0) |> toPoint
+                let midRight = P(bb.XMax,Float 0.0) |> toPoint
+                let midBottom = P(Float 0.0,bb.YMin) |> toPoint
+                let midTop = P(Float 0.0,bb.YMax) |> toPoint
+                canvas.DrawLine(midLeft,midRight, NGraphics.Colors.Black);
+                canvas.DrawLine(midBottom,midTop, NGraphics.Colors.Black);
+            if grid.ShowGrid then
+                let xmin = evFl bb.XMin initParams
+                let xmax = evFl bb.XMax initParams
+                let xs = [Math.Floor xmin..grid.AxisXSep..Math.Floor xmax]
+//                Debug.WriteLine grid.GridXSep
+//                Debug.WriteLine (sprintf "%A" xs)
+                let pen = Pen().WithColor(Colors.LightGray)
+                for i in xs do
+                    canvas.DrawLine(toPoint(P(i,bb.YMin)),toPoint(P(i,bb.YMax)),pen)
+                let ymin = evFl bb.YMin initParams
+                let ymax = evFl bb.YMax initParams
+                let ys = [Math.Floor ymin..grid.AxisYSep..Math.Floor ymax]
+//                Debug.WriteLine grid.GridXSep
+//                Debug.WriteLine (sprintf "%A" xs)
+                let pen = Pen().WithColor(Colors.LightGray)
+                for j in ys do
+                    canvas.DrawLine(toPoint(P(bb.XMin,j)),toPoint(P(bb.XMax,j)),pen)
+            if grid.ShowAxes then
+                let xmin = evFl bb.XMin initParams
+                let xmax = evFl bb.XMax initParams
+                let xs = [Math.Floor xmin..grid.AxisXSep..Math.Floor xmax]
+//                Debug.WriteLine grid.GridXSep
+//                Debug.WriteLine (sprintf "%A" xs)
+//                Debug.WriteLine (xs.Length.ToString())
+                let pen = Pen().WithColor(Colors.Black)
+                for i in xs do
+                    canvas.DrawLine(toPoint(P(i,-0.1)),toPoint(P(i,0.1)),pen)
+                let ymin = evFl bb.YMin initParams
+                let ymax = evFl bb.YMax initParams
+                let ys = [Math.Floor ymin..grid.AxisYSep..Math.Floor ymax]
+//                Debug.WriteLine grid.GridXSep
+//                Debug.WriteLine (sprintf "%A" xs)
+                let pen = Pen().WithColor(Colors.Black)
+//                canvas.DrawText("HI",NGraphics.Rect(100.0,100.0,50.0,150.0),NGraphics.Font(),NGraphics.TextAlignment.Left,NGraphics.Colors.Black)
+                for j in ys do
+                    canvas.DrawLine(toPoint(P(-0.1,j)),toPoint(P(0.1,j)),pen)
+//                    canvas.DrawText("1",toPoint(P(-0.2,j)),Font("Georgia",10.0),Colors.Black)
+                
         createAxes()
         graphics |> List.iter draw
 
@@ -148,7 +118,10 @@ type NDisplay(graphDefs: Graph list, sliderDefs: GSlider list) =
         )
     do  sliders |> List.iter (fun s ->
         s.Changed.Add(fun e ->
-            graphs |> List.iter (fun g -> g.SetParams(sliders |> List.map (fun s -> s.Variable, s.CurrentValue)))
+            let a = e.NewValue/1000.
+            graphs |> List.iter (fun g -> 
+                let currentValue = (1.-a)* s.Min + a * s.Max
+                g.SetParams(sliders |> List.map (fun s -> s.Variable, currentValue)))
             )
         )
     do  base.Content <-
@@ -164,16 +137,17 @@ type App() =
     let mainPage = ContentPage()
     let grid = Grid()
     
-    
     let g1 =
         Graph(
             [
-                Plot(Variable 'x' * Variable 'x' * Variable 'k');
-                Plot(sin(Variable 'x'*Variable 'k'))
+                G.Plot(Variable 'x' * Variable 'x' * Variable 'k');
+                G.Plot(sin(Variable 'x'*Variable 'k'),Colors.Red)
+                G.Segment(P(1.0,1.0),P(2.0,2.0))
+                G.Segment(P(1.0,1.0),P(Float 3.0,Variable 'k'),Colors.Green)
             ],
             BoundingBox(),
             GraphGrid())
-    let g2 = Graph([Plot(cos(Variable 'x'*Variable 'k'))],BoundingBox(), GraphGrid())
+    let g2 = Graph([G.Plot(cos(Variable 'x'*Variable 'k'))],BoundingBox(), GraphGrid())
     let ncontrolView =
         NDisplay([g1;g2],[GSlider.Default])
         
