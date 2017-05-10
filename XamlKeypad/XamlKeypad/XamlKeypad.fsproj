@@ -52,6 +52,7 @@
     <Compile Include="AssemblyInfo.fs" />
     <Content Include="packages.config" />
     <Compile Include="Formulas.fs" />
+    <Compile Include="XamarinHelpers.fs" />
     <Compile Include="TeX.fs" />
     <Compile Include="RecordTypes.fs" />
     <Compile Include="XamlKeypadPage.fs" />

@@ -1813,6 +1813,1902 @@ namespace XamlKeypad.Droid
 			global::NControl.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::XamlKeypad.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::NGraphics.Android.Resource.String.library_name = global::XamlKeypad.Droid.Resource.String.library_name;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::XamlKeypad.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.RangeSlider.Resource.Attribute.absoluteMaxValue = global::XamlKeypad.Droid.Resource.Attribute.absoluteMaxValue;
+			global::Xamarin.RangeSlider.Resource.Attribute.absoluteMinValue = global::XamlKeypad.Droid.Resource.Attribute.absoluteMinValue;
+			global::Xamarin.RangeSlider.Resource.Attribute.activateOnDefaultValues = global::XamlKeypad.Droid.Resource.Attribute.activateOnDefaultValues;
+			global::Xamarin.RangeSlider.Resource.Attribute.activeColor = global::XamlKeypad.Droid.Resource.Attribute.activeColor;
+			global::Xamarin.RangeSlider.Resource.Attribute.alwaysActive = global::XamlKeypad.Droid.Resource.Attribute.alwaysActive;
+			global::Xamarin.RangeSlider.Resource.Attribute.barHeight = global::XamlKeypad.Droid.Resource.Attribute.barHeight;
+			global::Xamarin.RangeSlider.Resource.Attribute.defaultColor = global::XamlKeypad.Droid.Resource.Attribute.defaultColor;
+			global::Xamarin.RangeSlider.Resource.Attribute.internalPadding = global::XamlKeypad.Droid.Resource.Attribute.internalPadding;
+			global::Xamarin.RangeSlider.Resource.Attribute.maxThumbHidden = global::XamlKeypad.Droid.Resource.Attribute.maxThumbHidden;
+			global::Xamarin.RangeSlider.Resource.Attribute.minThumbHidden = global::XamlKeypad.Droid.Resource.Attribute.minThumbHidden;
+			global::Xamarin.RangeSlider.Resource.Attribute.showRangeLabels = global::XamlKeypad.Droid.Resource.Attribute.showRangeLabels;
+			global::Xamarin.RangeSlider.Resource.Attribute.stepValue = global::XamlKeypad.Droid.Resource.Attribute.stepValue;
+			global::Xamarin.RangeSlider.Resource.Attribute.stepValueContinuously = global::XamlKeypad.Droid.Resource.Attribute.stepValueContinuously;
+			global::Xamarin.RangeSlider.Resource.Attribute.textAboveThumbsColor = global::XamlKeypad.Droid.Resource.Attribute.textAboveThumbsColor;
+			global::Xamarin.RangeSlider.Resource.Attribute.textSize = global::XamlKeypad.Droid.Resource.Attribute.textSize;
+			global::Xamarin.RangeSlider.Resource.Attribute.thumbDisabled = global::XamlKeypad.Droid.Resource.Attribute.thumbDisabled;
+			global::Xamarin.RangeSlider.Resource.Attribute.thumbNormal = global::XamlKeypad.Droid.Resource.Attribute.thumbNormal;
+			global::Xamarin.RangeSlider.Resource.Attribute.thumbPressed = global::XamlKeypad.Droid.Resource.Attribute.thumbPressed;
+			global::Xamarin.RangeSlider.Resource.Attribute.thumbShadow = global::XamlKeypad.Droid.Resource.Attribute.thumbShadow;
+			global::Xamarin.RangeSlider.Resource.Attribute.thumbShadowBlur = global::XamlKeypad.Droid.Resource.Attribute.thumbShadowBlur;
+			global::Xamarin.RangeSlider.Resource.Attribute.thumbShadowColor = global::XamlKeypad.Droid.Resource.Attribute.thumbShadowColor;
+			global::Xamarin.RangeSlider.Resource.Attribute.thumbShadowXOffset = global::XamlKeypad.Droid.Resource.Attribute.thumbShadowXOffset;
+			global::Xamarin.RangeSlider.Resource.Attribute.thumbShadowYOffset = global::XamlKeypad.Droid.Resource.Attribute.thumbShadowYOffset;
+			global::Xamarin.RangeSlider.Resource.Attribute.valuesAboveThumbs = global::XamlKeypad.Droid.Resource.Attribute.valuesAboveThumbs;
+			global::Xamarin.RangeSlider.Resource.Drawable.seek_thumb_disabled = global::XamlKeypad.Droid.Resource.Drawable.seek_thumb_disabled;
+			global::Xamarin.RangeSlider.Resource.Drawable.seek_thumb_normal = global::XamlKeypad.Droid.Resource.Drawable.seek_thumb_normal;
+			global::Xamarin.RangeSlider.Resource.Drawable.seek_thumb_pressed = global::XamlKeypad.Droid.Resource.Drawable.seek_thumb_pressed;
+			global::Xamarin.RangeSlider.Resource.String.app_name = global::XamlKeypad.Droid.Resource.String.app_name;
+			global::Xamarin.RangeSlider.Resource.String.demo_max_label = global::XamlKeypad.Droid.Resource.String.demo_max_label;
+			global::Xamarin.RangeSlider.Resource.String.demo_min_label = global::XamlKeypad.Droid.Resource.String.demo_min_label;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_absoluteMaxValue = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_absoluteMaxValue;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_absoluteMinValue = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_absoluteMinValue;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_activateOnDefaultValues = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_activateOnDefaultValues;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_activeColor = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_activeColor;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_alwaysActive = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_alwaysActive;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_barHeight = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_barHeight;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_defaultColor = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_defaultColor;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_internalPadding = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_internalPadding;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_maxThumbHidden = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_maxThumbHidden;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_minThumbHidden = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_minThumbHidden;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_showRangeLabels = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_showRangeLabels;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_stepValue = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_stepValue;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_stepValueContinuously = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_stepValueContinuously;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_textAboveThumbsColor = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_textAboveThumbsColor;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_textSize = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_textSize;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_thumbDisabled = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_thumbDisabled;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_thumbNormal = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_thumbNormal;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_thumbPressed = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_thumbPressed;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_thumbShadow = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_thumbShadow;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_thumbShadowBlur = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_thumbShadowBlur;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_thumbShadowColor = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_thumbShadowColor;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_thumbShadowXOffset = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_thumbShadowXOffset;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_thumbShadowYOffset = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_thumbShadowYOffset;
+			global::Xamarin.RangeSlider.Resource.Styleable.RangeSliderControl_valuesAboveThumbs = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_valuesAboveThumbs;
+			global::Xamarin.RangeSlider.Forms.Resource.Animation.abc_fade_in = global::XamlKeypad.Droid.Resource.Animation.abc_fade_in;
+			global::Xamarin.RangeSlider.Forms.Resource.Animation.abc_fade_out = global::XamlKeypad.Droid.Resource.Animation.abc_fade_out;
+			global::Xamarin.RangeSlider.Forms.Resource.Animation.abc_grow_fade_in_from_bottom = global::XamlKeypad.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xamarin.RangeSlider.Forms.Resource.Animation.abc_popup_enter = global::XamlKeypad.Droid.Resource.Animation.abc_popup_enter;
+			global::Xamarin.RangeSlider.Forms.Resource.Animation.abc_popup_exit = global::XamlKeypad.Droid.Resource.Animation.abc_popup_exit;
+			global::Xamarin.RangeSlider.Forms.Resource.Animation.abc_shrink_fade_out_from_bottom = global::XamlKeypad.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xamarin.RangeSlider.Forms.Resource.Animation.abc_slide_in_bottom = global::XamlKeypad.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xamarin.RangeSlider.Forms.Resource.Animation.abc_slide_in_top = global::XamlKeypad.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xamarin.RangeSlider.Forms.Resource.Animation.abc_slide_out_bottom = global::XamlKeypad.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xamarin.RangeSlider.Forms.Resource.Animation.abc_slide_out_top = global::XamlKeypad.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xamarin.RangeSlider.Forms.Resource.Animation.design_bottom_sheet_slide_in = global::XamlKeypad.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xamarin.RangeSlider.Forms.Resource.Animation.design_bottom_sheet_slide_out = global::XamlKeypad.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xamarin.RangeSlider.Forms.Resource.Animation.design_fab_in = global::XamlKeypad.Droid.Resource.Animation.design_fab_in;
+			global::Xamarin.RangeSlider.Forms.Resource.Animation.design_fab_out = global::XamlKeypad.Droid.Resource.Animation.design_fab_out;
+			global::Xamarin.RangeSlider.Forms.Resource.Animation.design_snackbar_in = global::XamlKeypad.Droid.Resource.Animation.design_snackbar_in;
+			global::Xamarin.RangeSlider.Forms.Resource.Animation.design_snackbar_out = global::XamlKeypad.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.MediaRouteControllerWindowBackground = global::XamlKeypad.Droid.Resource.Attribute.MediaRouteControllerWindowBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.absoluteMaxValue = global::XamlKeypad.Droid.Resource.Attribute.absoluteMaxValue;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.absoluteMinValue = global::XamlKeypad.Droid.Resource.Attribute.absoluteMinValue;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionBarDivider = global::XamlKeypad.Droid.Resource.Attribute.actionBarDivider;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionBarItemBackground = global::XamlKeypad.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionBarPopupTheme = global::XamlKeypad.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionBarSize = global::XamlKeypad.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionBarSplitStyle = global::XamlKeypad.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionBarStyle = global::XamlKeypad.Droid.Resource.Attribute.actionBarStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionBarTabBarStyle = global::XamlKeypad.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionBarTabStyle = global::XamlKeypad.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionBarTabTextStyle = global::XamlKeypad.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionBarTheme = global::XamlKeypad.Droid.Resource.Attribute.actionBarTheme;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionBarWidgetTheme = global::XamlKeypad.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionButtonStyle = global::XamlKeypad.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionDropDownStyle = global::XamlKeypad.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionLayout = global::XamlKeypad.Droid.Resource.Attribute.actionLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionMenuTextAppearance = global::XamlKeypad.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionMenuTextColor = global::XamlKeypad.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionModeBackground = global::XamlKeypad.Droid.Resource.Attribute.actionModeBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionModeCloseButtonStyle = global::XamlKeypad.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionModeCloseDrawable = global::XamlKeypad.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionModeCopyDrawable = global::XamlKeypad.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionModeCutDrawable = global::XamlKeypad.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionModeFindDrawable = global::XamlKeypad.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionModePasteDrawable = global::XamlKeypad.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionModePopupWindowStyle = global::XamlKeypad.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionModeSelectAllDrawable = global::XamlKeypad.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionModeShareDrawable = global::XamlKeypad.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionModeSplitBackground = global::XamlKeypad.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionModeStyle = global::XamlKeypad.Droid.Resource.Attribute.actionModeStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionModeWebSearchDrawable = global::XamlKeypad.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionOverflowButtonStyle = global::XamlKeypad.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionOverflowMenuStyle = global::XamlKeypad.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionProviderClass = global::XamlKeypad.Droid.Resource.Attribute.actionProviderClass;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.actionViewClass = global::XamlKeypad.Droid.Resource.Attribute.actionViewClass;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.activateOnDefaultValues = global::XamlKeypad.Droid.Resource.Attribute.activateOnDefaultValues;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.activeColor = global::XamlKeypad.Droid.Resource.Attribute.activeColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.activityChooserViewStyle = global::XamlKeypad.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.alertDialogButtonGroupStyle = global::XamlKeypad.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.alertDialogCenterButtons = global::XamlKeypad.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.alertDialogStyle = global::XamlKeypad.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.alertDialogTheme = global::XamlKeypad.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.allowStacking = global::XamlKeypad.Droid.Resource.Attribute.allowStacking;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.alwaysActive = global::XamlKeypad.Droid.Resource.Attribute.alwaysActive;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.arrowHeadLength = global::XamlKeypad.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.arrowShaftLength = global::XamlKeypad.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.autoCompleteTextViewStyle = global::XamlKeypad.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.background = global::XamlKeypad.Droid.Resource.Attribute.background;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.backgroundSplit = global::XamlKeypad.Droid.Resource.Attribute.backgroundSplit;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.backgroundStacked = global::XamlKeypad.Droid.Resource.Attribute.backgroundStacked;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.backgroundTint = global::XamlKeypad.Droid.Resource.Attribute.backgroundTint;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.backgroundTintMode = global::XamlKeypad.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.barHeight = global::XamlKeypad.Droid.Resource.Attribute.barHeight;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.barLength = global::XamlKeypad.Droid.Resource.Attribute.barLength;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.behavior_hideable = global::XamlKeypad.Droid.Resource.Attribute.behavior_hideable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.behavior_overlapTop = global::XamlKeypad.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.behavior_peekHeight = global::XamlKeypad.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.borderWidth = global::XamlKeypad.Droid.Resource.Attribute.borderWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.borderlessButtonStyle = global::XamlKeypad.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.bottomSheetDialogTheme = global::XamlKeypad.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.bottomSheetStyle = global::XamlKeypad.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.buttonBarButtonStyle = global::XamlKeypad.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.buttonBarNegativeButtonStyle = global::XamlKeypad.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.buttonBarNeutralButtonStyle = global::XamlKeypad.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.buttonBarPositiveButtonStyle = global::XamlKeypad.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.buttonBarStyle = global::XamlKeypad.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.buttonPanelSideLayout = global::XamlKeypad.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.buttonStyle = global::XamlKeypad.Droid.Resource.Attribute.buttonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.buttonStyleSmall = global::XamlKeypad.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.buttonTint = global::XamlKeypad.Droid.Resource.Attribute.buttonTint;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.buttonTintMode = global::XamlKeypad.Droid.Resource.Attribute.buttonTintMode;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.cardBackgroundColor = global::XamlKeypad.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.cardCornerRadius = global::XamlKeypad.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.cardElevation = global::XamlKeypad.Droid.Resource.Attribute.cardElevation;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.cardMaxElevation = global::XamlKeypad.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.cardPreventCornerOverlap = global::XamlKeypad.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.cardUseCompatPadding = global::XamlKeypad.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.checkboxStyle = global::XamlKeypad.Droid.Resource.Attribute.checkboxStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.checkedTextViewStyle = global::XamlKeypad.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.closeIcon = global::XamlKeypad.Droid.Resource.Attribute.closeIcon;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.closeItemLayout = global::XamlKeypad.Droid.Resource.Attribute.closeItemLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.collapseContentDescription = global::XamlKeypad.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.collapseIcon = global::XamlKeypad.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.collapsedTitleGravity = global::XamlKeypad.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.collapsedTitleTextAppearance = global::XamlKeypad.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.color = global::XamlKeypad.Droid.Resource.Attribute.color;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.colorAccent = global::XamlKeypad.Droid.Resource.Attribute.colorAccent;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.colorButtonNormal = global::XamlKeypad.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.colorControlActivated = global::XamlKeypad.Droid.Resource.Attribute.colorControlActivated;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.colorControlHighlight = global::XamlKeypad.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.colorControlNormal = global::XamlKeypad.Droid.Resource.Attribute.colorControlNormal;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.colorPrimary = global::XamlKeypad.Droid.Resource.Attribute.colorPrimary;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.colorPrimaryDark = global::XamlKeypad.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.colorSwitchThumbNormal = global::XamlKeypad.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.commitIcon = global::XamlKeypad.Droid.Resource.Attribute.commitIcon;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.contentInsetEnd = global::XamlKeypad.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.contentInsetLeft = global::XamlKeypad.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.contentInsetRight = global::XamlKeypad.Droid.Resource.Attribute.contentInsetRight;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.contentInsetStart = global::XamlKeypad.Droid.Resource.Attribute.contentInsetStart;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.contentPadding = global::XamlKeypad.Droid.Resource.Attribute.contentPadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.contentPaddingBottom = global::XamlKeypad.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.contentPaddingLeft = global::XamlKeypad.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.contentPaddingRight = global::XamlKeypad.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.contentPaddingTop = global::XamlKeypad.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.contentScrim = global::XamlKeypad.Droid.Resource.Attribute.contentScrim;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.controlBackground = global::XamlKeypad.Droid.Resource.Attribute.controlBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.counterEnabled = global::XamlKeypad.Droid.Resource.Attribute.counterEnabled;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.counterMaxLength = global::XamlKeypad.Droid.Resource.Attribute.counterMaxLength;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.counterOverflowTextAppearance = global::XamlKeypad.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.counterTextAppearance = global::XamlKeypad.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.customNavigationLayout = global::XamlKeypad.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.defaultColor = global::XamlKeypad.Droid.Resource.Attribute.defaultColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.defaultQueryHint = global::XamlKeypad.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.dialogPreferredPadding = global::XamlKeypad.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.dialogTheme = global::XamlKeypad.Droid.Resource.Attribute.dialogTheme;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.displayOptions = global::XamlKeypad.Droid.Resource.Attribute.displayOptions;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.divider = global::XamlKeypad.Droid.Resource.Attribute.divider;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.dividerHorizontal = global::XamlKeypad.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.dividerPadding = global::XamlKeypad.Droid.Resource.Attribute.dividerPadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.dividerVertical = global::XamlKeypad.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.drawableSize = global::XamlKeypad.Droid.Resource.Attribute.drawableSize;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.drawerArrowStyle = global::XamlKeypad.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.dropDownListViewStyle = global::XamlKeypad.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.dropdownListPreferredItemHeight = global::XamlKeypad.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.editTextBackground = global::XamlKeypad.Droid.Resource.Attribute.editTextBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.editTextColor = global::XamlKeypad.Droid.Resource.Attribute.editTextColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.editTextStyle = global::XamlKeypad.Droid.Resource.Attribute.editTextStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.elevation = global::XamlKeypad.Droid.Resource.Attribute.elevation;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.errorEnabled = global::XamlKeypad.Droid.Resource.Attribute.errorEnabled;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.errorTextAppearance = global::XamlKeypad.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.expandActivityOverflowButtonDrawable = global::XamlKeypad.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.expanded = global::XamlKeypad.Droid.Resource.Attribute.expanded;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.expandedTitleGravity = global::XamlKeypad.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.expandedTitleMargin = global::XamlKeypad.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.expandedTitleMarginBottom = global::XamlKeypad.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.expandedTitleMarginEnd = global::XamlKeypad.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.expandedTitleMarginStart = global::XamlKeypad.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.expandedTitleMarginTop = global::XamlKeypad.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.expandedTitleTextAppearance = global::XamlKeypad.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.externalRouteEnabledDrawable = global::XamlKeypad.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.fabSize = global::XamlKeypad.Droid.Resource.Attribute.fabSize;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.foregroundInsidePadding = global::XamlKeypad.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.gapBetweenBars = global::XamlKeypad.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.goIcon = global::XamlKeypad.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.headerLayout = global::XamlKeypad.Droid.Resource.Attribute.headerLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.height = global::XamlKeypad.Droid.Resource.Attribute.height;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.hideOnContentScroll = global::XamlKeypad.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.hintAnimationEnabled = global::XamlKeypad.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.hintEnabled = global::XamlKeypad.Droid.Resource.Attribute.hintEnabled;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.hintTextAppearance = global::XamlKeypad.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.homeAsUpIndicator = global::XamlKeypad.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.homeLayout = global::XamlKeypad.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.icon = global::XamlKeypad.Droid.Resource.Attribute.icon;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.iconifiedByDefault = global::XamlKeypad.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.imageButtonStyle = global::XamlKeypad.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.indeterminateProgressStyle = global::XamlKeypad.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.initialActivityCount = global::XamlKeypad.Droid.Resource.Attribute.initialActivityCount;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.insetForeground = global::XamlKeypad.Droid.Resource.Attribute.insetForeground;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.internalPadding = global::XamlKeypad.Droid.Resource.Attribute.internalPadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.isLightTheme = global::XamlKeypad.Droid.Resource.Attribute.isLightTheme;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.itemBackground = global::XamlKeypad.Droid.Resource.Attribute.itemBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.itemIconTint = global::XamlKeypad.Droid.Resource.Attribute.itemIconTint;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.itemPadding = global::XamlKeypad.Droid.Resource.Attribute.itemPadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.itemTextAppearance = global::XamlKeypad.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.itemTextColor = global::XamlKeypad.Droid.Resource.Attribute.itemTextColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.keylines = global::XamlKeypad.Droid.Resource.Attribute.keylines;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.layout = global::XamlKeypad.Droid.Resource.Attribute.layout;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.layoutManager = global::XamlKeypad.Droid.Resource.Attribute.layoutManager;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.layout_anchor = global::XamlKeypad.Droid.Resource.Attribute.layout_anchor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.layout_anchorGravity = global::XamlKeypad.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.layout_behavior = global::XamlKeypad.Droid.Resource.Attribute.layout_behavior;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.layout_collapseMode = global::XamlKeypad.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.layout_collapseParallaxMultiplier = global::XamlKeypad.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.layout_keyline = global::XamlKeypad.Droid.Resource.Attribute.layout_keyline;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.layout_scrollFlags = global::XamlKeypad.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.layout_scrollInterpolator = global::XamlKeypad.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.listChoiceBackgroundIndicator = global::XamlKeypad.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.listDividerAlertDialog = global::XamlKeypad.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.listItemLayout = global::XamlKeypad.Droid.Resource.Attribute.listItemLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.listLayout = global::XamlKeypad.Droid.Resource.Attribute.listLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.listPopupWindowStyle = global::XamlKeypad.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.listPreferredItemHeight = global::XamlKeypad.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.listPreferredItemHeightLarge = global::XamlKeypad.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.listPreferredItemHeightSmall = global::XamlKeypad.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.listPreferredItemPaddingLeft = global::XamlKeypad.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.listPreferredItemPaddingRight = global::XamlKeypad.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.logo = global::XamlKeypad.Droid.Resource.Attribute.logo;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.logoDescription = global::XamlKeypad.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.maxActionInlineWidth = global::XamlKeypad.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.maxButtonHeight = global::XamlKeypad.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.maxThumbHidden = global::XamlKeypad.Droid.Resource.Attribute.maxThumbHidden;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.measureWithLargestChild = global::XamlKeypad.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.mediaRouteAudioTrackDrawable = global::XamlKeypad.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.mediaRouteBluetoothIconDrawable = global::XamlKeypad.Droid.Resource.Attribute.mediaRouteBluetoothIconDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.mediaRouteButtonStyle = global::XamlKeypad.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.mediaRouteCastDrawable = global::XamlKeypad.Droid.Resource.Attribute.mediaRouteCastDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.mediaRouteChooserPrimaryTextStyle = global::XamlKeypad.Droid.Resource.Attribute.mediaRouteChooserPrimaryTextStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.mediaRouteChooserSecondaryTextStyle = global::XamlKeypad.Droid.Resource.Attribute.mediaRouteChooserSecondaryTextStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.mediaRouteCloseDrawable = global::XamlKeypad.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.mediaRouteCollapseGroupDrawable = global::XamlKeypad.Droid.Resource.Attribute.mediaRouteCollapseGroupDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.mediaRouteConnectingDrawable = global::XamlKeypad.Droid.Resource.Attribute.mediaRouteConnectingDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.mediaRouteControllerPrimaryTextStyle = global::XamlKeypad.Droid.Resource.Attribute.mediaRouteControllerPrimaryTextStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.mediaRouteControllerSecondaryTextStyle = global::XamlKeypad.Droid.Resource.Attribute.mediaRouteControllerSecondaryTextStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.mediaRouteControllerTitleTextStyle = global::XamlKeypad.Droid.Resource.Attribute.mediaRouteControllerTitleTextStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.mediaRouteDefaultIconDrawable = global::XamlKeypad.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.mediaRouteExpandGroupDrawable = global::XamlKeypad.Droid.Resource.Attribute.mediaRouteExpandGroupDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.mediaRouteOffDrawable = global::XamlKeypad.Droid.Resource.Attribute.mediaRouteOffDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.mediaRouteOnDrawable = global::XamlKeypad.Droid.Resource.Attribute.mediaRouteOnDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.mediaRoutePauseDrawable = global::XamlKeypad.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.mediaRoutePlayDrawable = global::XamlKeypad.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::XamlKeypad.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::XamlKeypad.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.mediaRouteTvIconDrawable = global::XamlKeypad.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.menu = global::XamlKeypad.Droid.Resource.Attribute.menu;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.minThumbHidden = global::XamlKeypad.Droid.Resource.Attribute.minThumbHidden;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.multiChoiceItemLayout = global::XamlKeypad.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.navigationContentDescription = global::XamlKeypad.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.navigationIcon = global::XamlKeypad.Droid.Resource.Attribute.navigationIcon;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.navigationMode = global::XamlKeypad.Droid.Resource.Attribute.navigationMode;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.overlapAnchor = global::XamlKeypad.Droid.Resource.Attribute.overlapAnchor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.paddingEnd = global::XamlKeypad.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.paddingStart = global::XamlKeypad.Droid.Resource.Attribute.paddingStart;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.panelBackground = global::XamlKeypad.Droid.Resource.Attribute.panelBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.panelMenuListTheme = global::XamlKeypad.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.panelMenuListWidth = global::XamlKeypad.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.popupMenuStyle = global::XamlKeypad.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.popupTheme = global::XamlKeypad.Droid.Resource.Attribute.popupTheme;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.popupWindowStyle = global::XamlKeypad.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.preserveIconSpacing = global::XamlKeypad.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.pressedTranslationZ = global::XamlKeypad.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.progressBarPadding = global::XamlKeypad.Droid.Resource.Attribute.progressBarPadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.progressBarStyle = global::XamlKeypad.Droid.Resource.Attribute.progressBarStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.queryBackground = global::XamlKeypad.Droid.Resource.Attribute.queryBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.queryHint = global::XamlKeypad.Droid.Resource.Attribute.queryHint;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.radioButtonStyle = global::XamlKeypad.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.ratingBarStyle = global::XamlKeypad.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.ratingBarStyleIndicator = global::XamlKeypad.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.ratingBarStyleSmall = global::XamlKeypad.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.reverseLayout = global::XamlKeypad.Droid.Resource.Attribute.reverseLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.rippleColor = global::XamlKeypad.Droid.Resource.Attribute.rippleColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.searchHintIcon = global::XamlKeypad.Droid.Resource.Attribute.searchHintIcon;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.searchIcon = global::XamlKeypad.Droid.Resource.Attribute.searchIcon;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.searchViewStyle = global::XamlKeypad.Droid.Resource.Attribute.searchViewStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.seekBarStyle = global::XamlKeypad.Droid.Resource.Attribute.seekBarStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.selectableItemBackground = global::XamlKeypad.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.selectableItemBackgroundBorderless = global::XamlKeypad.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.showAsAction = global::XamlKeypad.Droid.Resource.Attribute.showAsAction;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.showDividers = global::XamlKeypad.Droid.Resource.Attribute.showDividers;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.showRangeLabels = global::XamlKeypad.Droid.Resource.Attribute.showRangeLabels;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.showText = global::XamlKeypad.Droid.Resource.Attribute.showText;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.singleChoiceItemLayout = global::XamlKeypad.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.spanCount = global::XamlKeypad.Droid.Resource.Attribute.spanCount;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.spinBars = global::XamlKeypad.Droid.Resource.Attribute.spinBars;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.spinnerDropDownItemStyle = global::XamlKeypad.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.spinnerStyle = global::XamlKeypad.Droid.Resource.Attribute.spinnerStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.splitTrack = global::XamlKeypad.Droid.Resource.Attribute.splitTrack;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.srcCompat = global::XamlKeypad.Droid.Resource.Attribute.srcCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.stackFromEnd = global::XamlKeypad.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.state_above_anchor = global::XamlKeypad.Droid.Resource.Attribute.state_above_anchor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.statusBarBackground = global::XamlKeypad.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.statusBarScrim = global::XamlKeypad.Droid.Resource.Attribute.statusBarScrim;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.stepValue = global::XamlKeypad.Droid.Resource.Attribute.stepValue;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.stepValueContinuously = global::XamlKeypad.Droid.Resource.Attribute.stepValueContinuously;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.submitBackground = global::XamlKeypad.Droid.Resource.Attribute.submitBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.subtitle = global::XamlKeypad.Droid.Resource.Attribute.subtitle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.subtitleTextAppearance = global::XamlKeypad.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.subtitleTextColor = global::XamlKeypad.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.subtitleTextStyle = global::XamlKeypad.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.suggestionRowLayout = global::XamlKeypad.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.switchMinWidth = global::XamlKeypad.Droid.Resource.Attribute.switchMinWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.switchPadding = global::XamlKeypad.Droid.Resource.Attribute.switchPadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.switchStyle = global::XamlKeypad.Droid.Resource.Attribute.switchStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.switchTextAppearance = global::XamlKeypad.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.tabBackground = global::XamlKeypad.Droid.Resource.Attribute.tabBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.tabContentStart = global::XamlKeypad.Droid.Resource.Attribute.tabContentStart;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.tabGravity = global::XamlKeypad.Droid.Resource.Attribute.tabGravity;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.tabIndicatorColor = global::XamlKeypad.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.tabIndicatorHeight = global::XamlKeypad.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.tabMaxWidth = global::XamlKeypad.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.tabMinWidth = global::XamlKeypad.Droid.Resource.Attribute.tabMinWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.tabMode = global::XamlKeypad.Droid.Resource.Attribute.tabMode;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.tabPadding = global::XamlKeypad.Droid.Resource.Attribute.tabPadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.tabPaddingBottom = global::XamlKeypad.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.tabPaddingEnd = global::XamlKeypad.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.tabPaddingStart = global::XamlKeypad.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.tabPaddingTop = global::XamlKeypad.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.tabSelectedTextColor = global::XamlKeypad.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.tabTextAppearance = global::XamlKeypad.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.tabTextColor = global::XamlKeypad.Droid.Resource.Attribute.tabTextColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.textAboveThumbsColor = global::XamlKeypad.Droid.Resource.Attribute.textAboveThumbsColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.textAllCaps = global::XamlKeypad.Droid.Resource.Attribute.textAllCaps;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.textAppearanceLargePopupMenu = global::XamlKeypad.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.textAppearanceListItem = global::XamlKeypad.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.textAppearanceListItemSmall = global::XamlKeypad.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.textAppearanceSearchResultSubtitle = global::XamlKeypad.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.textAppearanceSearchResultTitle = global::XamlKeypad.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.textAppearanceSmallPopupMenu = global::XamlKeypad.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.textColorAlertDialogListItem = global::XamlKeypad.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.textColorError = global::XamlKeypad.Droid.Resource.Attribute.textColorError;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.textColorSearchUrl = global::XamlKeypad.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.textSize = global::XamlKeypad.Droid.Resource.Attribute.textSize;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.theme = global::XamlKeypad.Droid.Resource.Attribute.theme;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.thickness = global::XamlKeypad.Droid.Resource.Attribute.thickness;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.thumbDisabled = global::XamlKeypad.Droid.Resource.Attribute.thumbDisabled;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.thumbNormal = global::XamlKeypad.Droid.Resource.Attribute.thumbNormal;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.thumbPressed = global::XamlKeypad.Droid.Resource.Attribute.thumbPressed;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.thumbShadow = global::XamlKeypad.Droid.Resource.Attribute.thumbShadow;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.thumbShadowBlur = global::XamlKeypad.Droid.Resource.Attribute.thumbShadowBlur;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.thumbShadowColor = global::XamlKeypad.Droid.Resource.Attribute.thumbShadowColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.thumbShadowXOffset = global::XamlKeypad.Droid.Resource.Attribute.thumbShadowXOffset;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.thumbShadowYOffset = global::XamlKeypad.Droid.Resource.Attribute.thumbShadowYOffset;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.thumbTextPadding = global::XamlKeypad.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.title = global::XamlKeypad.Droid.Resource.Attribute.title;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.titleEnabled = global::XamlKeypad.Droid.Resource.Attribute.titleEnabled;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.titleMarginBottom = global::XamlKeypad.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.titleMarginEnd = global::XamlKeypad.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.titleMarginStart = global::XamlKeypad.Droid.Resource.Attribute.titleMarginStart;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.titleMarginTop = global::XamlKeypad.Droid.Resource.Attribute.titleMarginTop;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.titleMargins = global::XamlKeypad.Droid.Resource.Attribute.titleMargins;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.titleTextAppearance = global::XamlKeypad.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.titleTextColor = global::XamlKeypad.Droid.Resource.Attribute.titleTextColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.titleTextStyle = global::XamlKeypad.Droid.Resource.Attribute.titleTextStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.toolbarId = global::XamlKeypad.Droid.Resource.Attribute.toolbarId;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.toolbarNavigationButtonStyle = global::XamlKeypad.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.toolbarStyle = global::XamlKeypad.Droid.Resource.Attribute.toolbarStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.track = global::XamlKeypad.Droid.Resource.Attribute.track;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.useCompatPadding = global::XamlKeypad.Droid.Resource.Attribute.useCompatPadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.valuesAboveThumbs = global::XamlKeypad.Droid.Resource.Attribute.valuesAboveThumbs;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.voiceIcon = global::XamlKeypad.Droid.Resource.Attribute.voiceIcon;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.windowActionBar = global::XamlKeypad.Droid.Resource.Attribute.windowActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.windowActionBarOverlay = global::XamlKeypad.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.windowActionModeOverlay = global::XamlKeypad.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.windowFixedHeightMajor = global::XamlKeypad.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.windowFixedHeightMinor = global::XamlKeypad.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.windowFixedWidthMajor = global::XamlKeypad.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.windowFixedWidthMinor = global::XamlKeypad.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.windowMinWidthMajor = global::XamlKeypad.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.windowMinWidthMinor = global::XamlKeypad.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xamarin.RangeSlider.Forms.Resource.Attribute.windowNoTitle = global::XamlKeypad.Droid.Resource.Attribute.windowNoTitle;
+			global::Xamarin.RangeSlider.Forms.Resource.Boolean.abc_action_bar_embed_tabs = global::XamlKeypad.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarin.RangeSlider.Forms.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::XamlKeypad.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
+			global::Xamarin.RangeSlider.Forms.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::XamlKeypad.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
+			global::Xamarin.RangeSlider.Forms.Resource.Boolean.abc_allow_stacked_button_bar = global::XamlKeypad.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Xamarin.RangeSlider.Forms.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::XamlKeypad.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xamarin.RangeSlider.Forms.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::XamlKeypad.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
+			global::Xamarin.RangeSlider.Forms.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::XamlKeypad.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::Xamarin.RangeSlider.Forms.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::XamlKeypad.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.abc_background_cache_hint_selector_material_dark = global::XamlKeypad.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.abc_background_cache_hint_selector_material_light = global::XamlKeypad.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.abc_color_highlight_material = global::XamlKeypad.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.abc_input_method_navigation_guard = global::XamlKeypad.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.abc_primary_text_disable_only_material_dark = global::XamlKeypad.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.abc_primary_text_disable_only_material_light = global::XamlKeypad.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.abc_primary_text_material_dark = global::XamlKeypad.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.abc_primary_text_material_light = global::XamlKeypad.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.abc_search_url_text = global::XamlKeypad.Droid.Resource.Color.abc_search_url_text;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.abc_search_url_text_normal = global::XamlKeypad.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.abc_search_url_text_pressed = global::XamlKeypad.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.abc_search_url_text_selected = global::XamlKeypad.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.abc_secondary_text_material_dark = global::XamlKeypad.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.abc_secondary_text_material_light = global::XamlKeypad.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.accent_material_dark = global::XamlKeypad.Droid.Resource.Color.accent_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.accent_material_light = global::XamlKeypad.Droid.Resource.Color.accent_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.background_floating_material_dark = global::XamlKeypad.Droid.Resource.Color.background_floating_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.background_floating_material_light = global::XamlKeypad.Droid.Resource.Color.background_floating_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.background_material_dark = global::XamlKeypad.Droid.Resource.Color.background_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.background_material_light = global::XamlKeypad.Droid.Resource.Color.background_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.bright_foreground_disabled_material_dark = global::XamlKeypad.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.bright_foreground_disabled_material_light = global::XamlKeypad.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.bright_foreground_inverse_material_dark = global::XamlKeypad.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.bright_foreground_inverse_material_light = global::XamlKeypad.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.bright_foreground_material_dark = global::XamlKeypad.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.bright_foreground_material_light = global::XamlKeypad.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.button_material_dark = global::XamlKeypad.Droid.Resource.Color.button_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.button_material_light = global::XamlKeypad.Droid.Resource.Color.button_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.cardview_dark_background = global::XamlKeypad.Droid.Resource.Color.cardview_dark_background;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.cardview_light_background = global::XamlKeypad.Droid.Resource.Color.cardview_light_background;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.cardview_shadow_end_color = global::XamlKeypad.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.cardview_shadow_start_color = global::XamlKeypad.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.design_fab_shadow_end_color = global::XamlKeypad.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.design_fab_shadow_mid_color = global::XamlKeypad.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.design_fab_shadow_start_color = global::XamlKeypad.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.design_fab_stroke_end_inner_color = global::XamlKeypad.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.design_fab_stroke_end_outer_color = global::XamlKeypad.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.design_fab_stroke_top_inner_color = global::XamlKeypad.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.design_fab_stroke_top_outer_color = global::XamlKeypad.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.design_snackbar_background_color = global::XamlKeypad.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.design_textinput_error_color_dark = global::XamlKeypad.Droid.Resource.Color.design_textinput_error_color_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.design_textinput_error_color_light = global::XamlKeypad.Droid.Resource.Color.design_textinput_error_color_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.dim_foreground_disabled_material_dark = global::XamlKeypad.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.dim_foreground_disabled_material_light = global::XamlKeypad.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.dim_foreground_material_dark = global::XamlKeypad.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.dim_foreground_material_light = global::XamlKeypad.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.foreground_material_dark = global::XamlKeypad.Droid.Resource.Color.foreground_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.foreground_material_light = global::XamlKeypad.Droid.Resource.Color.foreground_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.highlighted_text_material_dark = global::XamlKeypad.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.highlighted_text_material_light = global::XamlKeypad.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.hint_foreground_material_dark = global::XamlKeypad.Droid.Resource.Color.hint_foreground_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.hint_foreground_material_light = global::XamlKeypad.Droid.Resource.Color.hint_foreground_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.material_blue_grey_800 = global::XamlKeypad.Droid.Resource.Color.material_blue_grey_800;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.material_blue_grey_900 = global::XamlKeypad.Droid.Resource.Color.material_blue_grey_900;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.material_blue_grey_950 = global::XamlKeypad.Droid.Resource.Color.material_blue_grey_950;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.material_deep_teal_200 = global::XamlKeypad.Droid.Resource.Color.material_deep_teal_200;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.material_deep_teal_500 = global::XamlKeypad.Droid.Resource.Color.material_deep_teal_500;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.material_grey_100 = global::XamlKeypad.Droid.Resource.Color.material_grey_100;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.material_grey_300 = global::XamlKeypad.Droid.Resource.Color.material_grey_300;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.material_grey_50 = global::XamlKeypad.Droid.Resource.Color.material_grey_50;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.material_grey_600 = global::XamlKeypad.Droid.Resource.Color.material_grey_600;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.material_grey_800 = global::XamlKeypad.Droid.Resource.Color.material_grey_800;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.material_grey_850 = global::XamlKeypad.Droid.Resource.Color.material_grey_850;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.material_grey_900 = global::XamlKeypad.Droid.Resource.Color.material_grey_900;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.primary_dark_material_dark = global::XamlKeypad.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.primary_dark_material_light = global::XamlKeypad.Droid.Resource.Color.primary_dark_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.primary_material_dark = global::XamlKeypad.Droid.Resource.Color.primary_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.primary_material_light = global::XamlKeypad.Droid.Resource.Color.primary_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.primary_text_default_material_dark = global::XamlKeypad.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.primary_text_default_material_light = global::XamlKeypad.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.primary_text_disabled_material_dark = global::XamlKeypad.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.primary_text_disabled_material_light = global::XamlKeypad.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.ripple_material_dark = global::XamlKeypad.Droid.Resource.Color.ripple_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.ripple_material_light = global::XamlKeypad.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.secondary_text_default_material_dark = global::XamlKeypad.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.secondary_text_default_material_light = global::XamlKeypad.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.secondary_text_disabled_material_dark = global::XamlKeypad.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.secondary_text_disabled_material_light = global::XamlKeypad.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.switch_thumb_disabled_material_dark = global::XamlKeypad.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.switch_thumb_disabled_material_light = global::XamlKeypad.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.switch_thumb_material_dark = global::XamlKeypad.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.switch_thumb_material_light = global::XamlKeypad.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.switch_thumb_normal_material_dark = global::XamlKeypad.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Color.switch_thumb_normal_material_light = global::XamlKeypad.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_action_bar_content_inset_material = global::XamlKeypad.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_action_bar_default_height_material = global::XamlKeypad.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_action_bar_default_padding_end_material = global::XamlKeypad.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_action_bar_default_padding_start_material = global::XamlKeypad.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::XamlKeypad.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::XamlKeypad.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::XamlKeypad.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_action_bar_progress_bar_size = global::XamlKeypad.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_action_bar_stacked_max_height = global::XamlKeypad.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::XamlKeypad.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::XamlKeypad.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::XamlKeypad.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_action_button_min_height_material = global::XamlKeypad.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_action_button_min_width_material = global::XamlKeypad.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_action_button_min_width_overflow_material = global::XamlKeypad.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_alert_dialog_button_bar_height = global::XamlKeypad.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_button_inset_horizontal_material = global::XamlKeypad.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_button_inset_vertical_material = global::XamlKeypad.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_button_padding_horizontal_material = global::XamlKeypad.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_button_padding_vertical_material = global::XamlKeypad.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_config_prefDialogWidth = global::XamlKeypad.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_control_corner_material = global::XamlKeypad.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_control_inset_material = global::XamlKeypad.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_control_padding_material = global::XamlKeypad.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_dialog_fixed_height_major = global::XamlKeypad.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_dialog_fixed_height_minor = global::XamlKeypad.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_dialog_fixed_width_major = global::XamlKeypad.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_dialog_fixed_width_minor = global::XamlKeypad.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::XamlKeypad.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_dialog_min_width_major = global::XamlKeypad.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_dialog_min_width_minor = global::XamlKeypad.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_dialog_padding_material = global::XamlKeypad.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_dialog_padding_top_material = global::XamlKeypad.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_disabled_alpha_material_dark = global::XamlKeypad.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_disabled_alpha_material_light = global::XamlKeypad.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_dropdownitem_icon_width = global::XamlKeypad.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_dropdownitem_text_padding_left = global::XamlKeypad.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_dropdownitem_text_padding_right = global::XamlKeypad.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_edit_text_inset_bottom_material = global::XamlKeypad.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::XamlKeypad.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_edit_text_inset_top_material = global::XamlKeypad.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_floating_window_z = global::XamlKeypad.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_list_item_padding_horizontal_material = global::XamlKeypad.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_panel_menu_list_width = global::XamlKeypad.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_search_view_preferred_width = global::XamlKeypad.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_search_view_text_min_width = global::XamlKeypad.Droid.Resource.Dimension.abc_search_view_text_min_width;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_seekbar_track_background_height_material = global::XamlKeypad.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_seekbar_track_progress_height_material = global::XamlKeypad.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_select_dialog_padding_start_material = global::XamlKeypad.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_switch_padding = global::XamlKeypad.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_text_size_body_1_material = global::XamlKeypad.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_text_size_body_2_material = global::XamlKeypad.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_text_size_button_material = global::XamlKeypad.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_text_size_caption_material = global::XamlKeypad.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_text_size_display_1_material = global::XamlKeypad.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_text_size_display_2_material = global::XamlKeypad.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_text_size_display_3_material = global::XamlKeypad.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_text_size_display_4_material = global::XamlKeypad.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_text_size_headline_material = global::XamlKeypad.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_text_size_large_material = global::XamlKeypad.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_text_size_medium_material = global::XamlKeypad.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_text_size_menu_material = global::XamlKeypad.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_text_size_small_material = global::XamlKeypad.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_text_size_subhead_material = global::XamlKeypad.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::XamlKeypad.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_text_size_title_material = global::XamlKeypad.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.abc_text_size_title_material_toolbar = global::XamlKeypad.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.cardview_compat_inset_shadow = global::XamlKeypad.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.cardview_default_elevation = global::XamlKeypad.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.cardview_default_radius = global::XamlKeypad.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_appbar_elevation = global::XamlKeypad.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_bottom_sheet_modal_elevation = global::XamlKeypad.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_bottom_sheet_modal_peek_height = global::XamlKeypad.Droid.Resource.Dimension.design_bottom_sheet_modal_peek_height;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_fab_border_width = global::XamlKeypad.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_fab_elevation = global::XamlKeypad.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_fab_image_size = global::XamlKeypad.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_fab_size_mini = global::XamlKeypad.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_fab_size_normal = global::XamlKeypad.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_fab_translation_z_pressed = global::XamlKeypad.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_navigation_elevation = global::XamlKeypad.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_navigation_icon_padding = global::XamlKeypad.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_navigation_icon_size = global::XamlKeypad.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_navigation_max_width = global::XamlKeypad.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_navigation_padding_bottom = global::XamlKeypad.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_navigation_separator_vertical_padding = global::XamlKeypad.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_snackbar_action_inline_max_width = global::XamlKeypad.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_snackbar_background_corner_radius = global::XamlKeypad.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_snackbar_elevation = global::XamlKeypad.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::XamlKeypad.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_snackbar_max_width = global::XamlKeypad.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_snackbar_min_width = global::XamlKeypad.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_snackbar_padding_horizontal = global::XamlKeypad.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_snackbar_padding_vertical = global::XamlKeypad.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::XamlKeypad.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_snackbar_text_size = global::XamlKeypad.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_tab_max_width = global::XamlKeypad.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_tab_scrollable_min_width = global::XamlKeypad.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_tab_text_size = global::XamlKeypad.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.design_tab_text_size_2line = global::XamlKeypad.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.disabled_alpha_material_dark = global::XamlKeypad.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.disabled_alpha_material_light = global::XamlKeypad.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.highlight_alpha_material_colored = global::XamlKeypad.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.highlight_alpha_material_dark = global::XamlKeypad.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.highlight_alpha_material_light = global::XamlKeypad.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::XamlKeypad.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::XamlKeypad.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::XamlKeypad.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.mr_controller_volume_group_list_item_height = global::XamlKeypad.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::XamlKeypad.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.mr_controller_volume_group_list_max_height = global::XamlKeypad.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::XamlKeypad.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.mr_dialog_fixed_width_major = global::XamlKeypad.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.mr_dialog_fixed_width_minor = global::XamlKeypad.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.notification_large_icon_height = global::XamlKeypad.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.notification_large_icon_width = global::XamlKeypad.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.RangeSlider.Forms.Resource.Dimension.notification_subtext_size = global::XamlKeypad.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_action_bar_item_background_material = global::XamlKeypad.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_btn_borderless_material = global::XamlKeypad.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_btn_check_material = global::XamlKeypad.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::XamlKeypad.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::XamlKeypad.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_btn_colored_material = global::XamlKeypad.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_btn_default_mtrl_shape = global::XamlKeypad.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_btn_radio_material = global::XamlKeypad.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::XamlKeypad.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::XamlKeypad.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::XamlKeypad.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::XamlKeypad.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_cab_background_internal_bg = global::XamlKeypad.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_cab_background_top_material = global::XamlKeypad.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_control_background_material = global::XamlKeypad.Droid.Resource.Drawable.abc_control_background_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_dialog_material_background_dark = global::XamlKeypad.Droid.Resource.Drawable.abc_dialog_material_background_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_dialog_material_background_light = global::XamlKeypad.Droid.Resource.Drawable.abc_dialog_material_background_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_edit_text_material = global::XamlKeypad.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_ic_star_black_16dp = global::XamlKeypad.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_ic_star_black_36dp = global::XamlKeypad.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_ic_star_half_black_16dp = global::XamlKeypad.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_ic_star_half_black_36dp = global::XamlKeypad.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_item_background_holo_dark = global::XamlKeypad.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_item_background_holo_light = global::XamlKeypad.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_list_divider_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_list_focused_holo = global::XamlKeypad.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_list_longpressed_holo = global::XamlKeypad.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_list_pressed_holo_dark = global::XamlKeypad.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_list_pressed_holo_light = global::XamlKeypad.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::XamlKeypad.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::XamlKeypad.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::XamlKeypad.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_list_selector_disabled_holo_light = global::XamlKeypad.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_list_selector_holo_dark = global::XamlKeypad.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_list_selector_holo_light = global::XamlKeypad.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::XamlKeypad.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_popup_background_mtrl_mult = global::XamlKeypad.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_ratingbar_full_material = global::XamlKeypad.Droid.Resource.Drawable.abc_ratingbar_full_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_ratingbar_indicator_material = global::XamlKeypad.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_ratingbar_small_material = global::XamlKeypad.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::XamlKeypad.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::XamlKeypad.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_seekbar_thumb_material = global::XamlKeypad.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_seekbar_track_material = global::XamlKeypad.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_spinner_textfield_background_material = global::XamlKeypad.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_switch_thumb_material = global::XamlKeypad.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_switch_track_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_tab_indicator_material = global::XamlKeypad.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_text_cursor_material = global::XamlKeypad.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::XamlKeypad.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.abc_textfield_search_material = global::XamlKeypad.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.design_fab_background = global::XamlKeypad.Droid.Resource.Drawable.design_fab_background;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.design_snackbar_background = global::XamlKeypad.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_audiotrack = global::XamlKeypad.Droid.Resource.Drawable.ic_audiotrack;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_audiotrack_light = global::XamlKeypad.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_bluetooth_grey = global::XamlKeypad.Droid.Resource.Drawable.ic_bluetooth_grey;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_bluetooth_white = global::XamlKeypad.Droid.Resource.Drawable.ic_bluetooth_white;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_cast_dark = global::XamlKeypad.Droid.Resource.Drawable.ic_cast_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_cast_disabled_light = global::XamlKeypad.Droid.Resource.Drawable.ic_cast_disabled_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_cast_grey = global::XamlKeypad.Droid.Resource.Drawable.ic_cast_grey;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_cast_light = global::XamlKeypad.Droid.Resource.Drawable.ic_cast_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_cast_off_light = global::XamlKeypad.Droid.Resource.Drawable.ic_cast_off_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_cast_on_0_light = global::XamlKeypad.Droid.Resource.Drawable.ic_cast_on_0_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_cast_on_1_light = global::XamlKeypad.Droid.Resource.Drawable.ic_cast_on_1_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_cast_on_2_light = global::XamlKeypad.Droid.Resource.Drawable.ic_cast_on_2_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_cast_on_light = global::XamlKeypad.Droid.Resource.Drawable.ic_cast_on_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_cast_white = global::XamlKeypad.Droid.Resource.Drawable.ic_cast_white;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_close_dark = global::XamlKeypad.Droid.Resource.Drawable.ic_close_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_close_light = global::XamlKeypad.Droid.Resource.Drawable.ic_close_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_collapse = global::XamlKeypad.Droid.Resource.Drawable.ic_collapse;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_collapse_00000 = global::XamlKeypad.Droid.Resource.Drawable.ic_collapse_00000;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_collapse_00001 = global::XamlKeypad.Droid.Resource.Drawable.ic_collapse_00001;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_collapse_00002 = global::XamlKeypad.Droid.Resource.Drawable.ic_collapse_00002;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_collapse_00003 = global::XamlKeypad.Droid.Resource.Drawable.ic_collapse_00003;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_collapse_00004 = global::XamlKeypad.Droid.Resource.Drawable.ic_collapse_00004;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_collapse_00005 = global::XamlKeypad.Droid.Resource.Drawable.ic_collapse_00005;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_collapse_00006 = global::XamlKeypad.Droid.Resource.Drawable.ic_collapse_00006;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_collapse_00007 = global::XamlKeypad.Droid.Resource.Drawable.ic_collapse_00007;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_collapse_00008 = global::XamlKeypad.Droid.Resource.Drawable.ic_collapse_00008;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_collapse_00009 = global::XamlKeypad.Droid.Resource.Drawable.ic_collapse_00009;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_collapse_00010 = global::XamlKeypad.Droid.Resource.Drawable.ic_collapse_00010;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_collapse_00011 = global::XamlKeypad.Droid.Resource.Drawable.ic_collapse_00011;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_collapse_00012 = global::XamlKeypad.Droid.Resource.Drawable.ic_collapse_00012;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_collapse_00013 = global::XamlKeypad.Droid.Resource.Drawable.ic_collapse_00013;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_collapse_00014 = global::XamlKeypad.Droid.Resource.Drawable.ic_collapse_00014;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_collapse_00015 = global::XamlKeypad.Droid.Resource.Drawable.ic_collapse_00015;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_expand = global::XamlKeypad.Droid.Resource.Drawable.ic_expand;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_expand_00000 = global::XamlKeypad.Droid.Resource.Drawable.ic_expand_00000;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_expand_00001 = global::XamlKeypad.Droid.Resource.Drawable.ic_expand_00001;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_expand_00002 = global::XamlKeypad.Droid.Resource.Drawable.ic_expand_00002;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_expand_00003 = global::XamlKeypad.Droid.Resource.Drawable.ic_expand_00003;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_expand_00004 = global::XamlKeypad.Droid.Resource.Drawable.ic_expand_00004;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_expand_00005 = global::XamlKeypad.Droid.Resource.Drawable.ic_expand_00005;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_expand_00006 = global::XamlKeypad.Droid.Resource.Drawable.ic_expand_00006;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_expand_00007 = global::XamlKeypad.Droid.Resource.Drawable.ic_expand_00007;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_expand_00008 = global::XamlKeypad.Droid.Resource.Drawable.ic_expand_00008;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_expand_00009 = global::XamlKeypad.Droid.Resource.Drawable.ic_expand_00009;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_expand_00010 = global::XamlKeypad.Droid.Resource.Drawable.ic_expand_00010;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_expand_00011 = global::XamlKeypad.Droid.Resource.Drawable.ic_expand_00011;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_expand_00012 = global::XamlKeypad.Droid.Resource.Drawable.ic_expand_00012;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_expand_00013 = global::XamlKeypad.Droid.Resource.Drawable.ic_expand_00013;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_expand_00014 = global::XamlKeypad.Droid.Resource.Drawable.ic_expand_00014;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_expand_00015 = global::XamlKeypad.Droid.Resource.Drawable.ic_expand_00015;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_media_pause = global::XamlKeypad.Droid.Resource.Drawable.ic_media_pause;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_media_play = global::XamlKeypad.Droid.Resource.Drawable.ic_media_play;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_media_route_disabled_mono_dark = global::XamlKeypad.Droid.Resource.Drawable.ic_media_route_disabled_mono_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_media_route_off_mono_dark = global::XamlKeypad.Droid.Resource.Drawable.ic_media_route_off_mono_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_media_route_on_0_mono_dark = global::XamlKeypad.Droid.Resource.Drawable.ic_media_route_on_0_mono_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_media_route_on_1_mono_dark = global::XamlKeypad.Droid.Resource.Drawable.ic_media_route_on_1_mono_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_media_route_on_2_mono_dark = global::XamlKeypad.Droid.Resource.Drawable.ic_media_route_on_2_mono_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_media_route_on_mono_dark = global::XamlKeypad.Droid.Resource.Drawable.ic_media_route_on_mono_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_pause_dark = global::XamlKeypad.Droid.Resource.Drawable.ic_pause_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_pause_light = global::XamlKeypad.Droid.Resource.Drawable.ic_pause_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_play_dark = global::XamlKeypad.Droid.Resource.Drawable.ic_play_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_play_light = global::XamlKeypad.Droid.Resource.Drawable.ic_play_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_speaker_dark = global::XamlKeypad.Droid.Resource.Drawable.ic_speaker_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_speaker_group_dark = global::XamlKeypad.Droid.Resource.Drawable.ic_speaker_group_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_speaker_group_light = global::XamlKeypad.Droid.Resource.Drawable.ic_speaker_group_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_speaker_light = global::XamlKeypad.Droid.Resource.Drawable.ic_speaker_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_tv_dark = global::XamlKeypad.Droid.Resource.Drawable.ic_tv_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.ic_tv_light = global::XamlKeypad.Droid.Resource.Drawable.ic_tv_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.mr_dialog_material_background_dark = global::XamlKeypad.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.mr_dialog_material_background_light = global::XamlKeypad.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.mr_ic_audiotrack_light = global::XamlKeypad.Droid.Resource.Drawable.mr_ic_audiotrack_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.mr_ic_cast_dark = global::XamlKeypad.Droid.Resource.Drawable.mr_ic_cast_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.mr_ic_cast_light = global::XamlKeypad.Droid.Resource.Drawable.mr_ic_cast_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.mr_ic_close_dark = global::XamlKeypad.Droid.Resource.Drawable.mr_ic_close_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.mr_ic_close_light = global::XamlKeypad.Droid.Resource.Drawable.mr_ic_close_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.mr_ic_media_route_connecting_mono_dark = global::XamlKeypad.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.mr_ic_media_route_connecting_mono_light = global::XamlKeypad.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.mr_ic_media_route_mono_dark = global::XamlKeypad.Droid.Resource.Drawable.mr_ic_media_route_mono_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.mr_ic_media_route_mono_light = global::XamlKeypad.Droid.Resource.Drawable.mr_ic_media_route_mono_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.mr_ic_pause_dark = global::XamlKeypad.Droid.Resource.Drawable.mr_ic_pause_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.mr_ic_pause_light = global::XamlKeypad.Droid.Resource.Drawable.mr_ic_pause_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.mr_ic_play_dark = global::XamlKeypad.Droid.Resource.Drawable.mr_ic_play_dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.mr_ic_play_light = global::XamlKeypad.Droid.Resource.Drawable.mr_ic_play_light;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.notification_template_icon_bg = global::XamlKeypad.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.seek_thumb_disabled = global::XamlKeypad.Droid.Resource.Drawable.seek_thumb_disabled;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.seek_thumb_normal = global::XamlKeypad.Droid.Resource.Drawable.seek_thumb_normal;
+			global::Xamarin.RangeSlider.Forms.Resource.Drawable.seek_thumb_pressed = global::XamlKeypad.Droid.Resource.Drawable.seek_thumb_pressed;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.action0 = global::XamlKeypad.Droid.Resource.Id.action0;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.action_bar = global::XamlKeypad.Droid.Resource.Id.action_bar;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.action_bar_activity_content = global::XamlKeypad.Droid.Resource.Id.action_bar_activity_content;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.action_bar_container = global::XamlKeypad.Droid.Resource.Id.action_bar_container;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.action_bar_root = global::XamlKeypad.Droid.Resource.Id.action_bar_root;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.action_bar_spinner = global::XamlKeypad.Droid.Resource.Id.action_bar_spinner;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.action_bar_subtitle = global::XamlKeypad.Droid.Resource.Id.action_bar_subtitle;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.action_bar_title = global::XamlKeypad.Droid.Resource.Id.action_bar_title;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.action_context_bar = global::XamlKeypad.Droid.Resource.Id.action_context_bar;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.action_divider = global::XamlKeypad.Droid.Resource.Id.action_divider;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.action_menu_divider = global::XamlKeypad.Droid.Resource.Id.action_menu_divider;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.action_menu_presenter = global::XamlKeypad.Droid.Resource.Id.action_menu_presenter;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.action_mode_bar = global::XamlKeypad.Droid.Resource.Id.action_mode_bar;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.action_mode_bar_stub = global::XamlKeypad.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.action_mode_close_button = global::XamlKeypad.Droid.Resource.Id.action_mode_close_button;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.activity_chooser_view_content = global::XamlKeypad.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.alertTitle = global::XamlKeypad.Droid.Resource.Id.alertTitle;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.always = global::XamlKeypad.Droid.Resource.Id.always;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.beginning = global::XamlKeypad.Droid.Resource.Id.beginning;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.bottom = global::XamlKeypad.Droid.Resource.Id.bottom;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.buttonPanel = global::XamlKeypad.Droid.Resource.Id.buttonPanel;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.cancel_action = global::XamlKeypad.Droid.Resource.Id.cancel_action;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.center = global::XamlKeypad.Droid.Resource.Id.center;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.center_horizontal = global::XamlKeypad.Droid.Resource.Id.center_horizontal;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.center_vertical = global::XamlKeypad.Droid.Resource.Id.center_vertical;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.checkbox = global::XamlKeypad.Droid.Resource.Id.checkbox;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.chronometer = global::XamlKeypad.Droid.Resource.Id.chronometer;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.clip_horizontal = global::XamlKeypad.Droid.Resource.Id.clip_horizontal;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.clip_vertical = global::XamlKeypad.Droid.Resource.Id.clip_vertical;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.collapseActionView = global::XamlKeypad.Droid.Resource.Id.collapseActionView;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.contentPanel = global::XamlKeypad.Droid.Resource.Id.contentPanel;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.custom = global::XamlKeypad.Droid.Resource.Id.custom;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.customPanel = global::XamlKeypad.Droid.Resource.Id.customPanel;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.decor_content_parent = global::XamlKeypad.Droid.Resource.Id.decor_content_parent;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.default_activity_button = global::XamlKeypad.Droid.Resource.Id.default_activity_button;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.design_bottom_sheet = global::XamlKeypad.Droid.Resource.Id.design_bottom_sheet;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.design_menu_item_action_area = global::XamlKeypad.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.design_menu_item_action_area_stub = global::XamlKeypad.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.design_menu_item_text = global::XamlKeypad.Droid.Resource.Id.design_menu_item_text;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.design_navigation_view = global::XamlKeypad.Droid.Resource.Id.design_navigation_view;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.disableHome = global::XamlKeypad.Droid.Resource.Id.disableHome;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.edit_query = global::XamlKeypad.Droid.Resource.Id.edit_query;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.end = global::XamlKeypad.Droid.Resource.Id.end;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.end_padder = global::XamlKeypad.Droid.Resource.Id.end_padder;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.enterAlways = global::XamlKeypad.Droid.Resource.Id.enterAlways;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.enterAlwaysCollapsed = global::XamlKeypad.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.exitUntilCollapsed = global::XamlKeypad.Droid.Resource.Id.exitUntilCollapsed;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.expand_activities_button = global::XamlKeypad.Droid.Resource.Id.expand_activities_button;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.expanded_menu = global::XamlKeypad.Droid.Resource.Id.expanded_menu;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.fill = global::XamlKeypad.Droid.Resource.Id.fill;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.fill_horizontal = global::XamlKeypad.Droid.Resource.Id.fill_horizontal;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.fill_vertical = global::XamlKeypad.Droid.Resource.Id.fill_vertical;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.@fixed = global::XamlKeypad.Droid.Resource.Id.@fixed;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.home = global::XamlKeypad.Droid.Resource.Id.home;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.homeAsUp = global::XamlKeypad.Droid.Resource.Id.homeAsUp;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.icon = global::XamlKeypad.Droid.Resource.Id.icon;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.ifRoom = global::XamlKeypad.Droid.Resource.Id.ifRoom;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.image = global::XamlKeypad.Droid.Resource.Id.image;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.info = global::XamlKeypad.Droid.Resource.Id.info;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.item_touch_helper_previous_elevation = global::XamlKeypad.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.left = global::XamlKeypad.Droid.Resource.Id.left;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.line1 = global::XamlKeypad.Droid.Resource.Id.line1;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.line3 = global::XamlKeypad.Droid.Resource.Id.line3;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.listMode = global::XamlKeypad.Droid.Resource.Id.listMode;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.list_item = global::XamlKeypad.Droid.Resource.Id.list_item;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.media_actions = global::XamlKeypad.Droid.Resource.Id.media_actions;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.middle = global::XamlKeypad.Droid.Resource.Id.middle;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mini = global::XamlKeypad.Droid.Resource.Id.mini;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_art = global::XamlKeypad.Droid.Resource.Id.mr_art;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_chooser_list = global::XamlKeypad.Droid.Resource.Id.mr_chooser_list;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_chooser_route_desc = global::XamlKeypad.Droid.Resource.Id.mr_chooser_route_desc;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_chooser_route_icon = global::XamlKeypad.Droid.Resource.Id.mr_chooser_route_icon;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_chooser_route_name = global::XamlKeypad.Droid.Resource.Id.mr_chooser_route_name;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_close = global::XamlKeypad.Droid.Resource.Id.mr_close;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_control_divider = global::XamlKeypad.Droid.Resource.Id.mr_control_divider;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_control_play_pause = global::XamlKeypad.Droid.Resource.Id.mr_control_play_pause;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_control_subtitle = global::XamlKeypad.Droid.Resource.Id.mr_control_subtitle;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_control_title = global::XamlKeypad.Droid.Resource.Id.mr_control_title;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_control_title_container = global::XamlKeypad.Droid.Resource.Id.mr_control_title_container;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_custom_control = global::XamlKeypad.Droid.Resource.Id.mr_custom_control;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_default_control = global::XamlKeypad.Droid.Resource.Id.mr_default_control;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_dialog_area = global::XamlKeypad.Droid.Resource.Id.mr_dialog_area;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_expandable_area = global::XamlKeypad.Droid.Resource.Id.mr_expandable_area;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_group_expand_collapse = global::XamlKeypad.Droid.Resource.Id.mr_group_expand_collapse;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_media_main_control = global::XamlKeypad.Droid.Resource.Id.mr_media_main_control;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_name = global::XamlKeypad.Droid.Resource.Id.mr_name;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_playback_control = global::XamlKeypad.Droid.Resource.Id.mr_playback_control;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_title_bar = global::XamlKeypad.Droid.Resource.Id.mr_title_bar;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_volume_control = global::XamlKeypad.Droid.Resource.Id.mr_volume_control;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_volume_group_list = global::XamlKeypad.Droid.Resource.Id.mr_volume_group_list;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_volume_item_icon = global::XamlKeypad.Droid.Resource.Id.mr_volume_item_icon;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.mr_volume_slider = global::XamlKeypad.Droid.Resource.Id.mr_volume_slider;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.multiply = global::XamlKeypad.Droid.Resource.Id.multiply;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.navigation_header_container = global::XamlKeypad.Droid.Resource.Id.navigation_header_container;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.never = global::XamlKeypad.Droid.Resource.Id.never;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.none = global::XamlKeypad.Droid.Resource.Id.none;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.normal = global::XamlKeypad.Droid.Resource.Id.normal;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.parallax = global::XamlKeypad.Droid.Resource.Id.parallax;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.parentPanel = global::XamlKeypad.Droid.Resource.Id.parentPanel;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.pin = global::XamlKeypad.Droid.Resource.Id.pin;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.progress_circular = global::XamlKeypad.Droid.Resource.Id.progress_circular;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.progress_horizontal = global::XamlKeypad.Droid.Resource.Id.progress_horizontal;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.radio = global::XamlKeypad.Droid.Resource.Id.radio;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.right = global::XamlKeypad.Droid.Resource.Id.right;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.screen = global::XamlKeypad.Droid.Resource.Id.screen;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.scroll = global::XamlKeypad.Droid.Resource.Id.scroll;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.scrollIndicatorDown = global::XamlKeypad.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.scrollIndicatorUp = global::XamlKeypad.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.scrollView = global::XamlKeypad.Droid.Resource.Id.scrollView;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.scrollable = global::XamlKeypad.Droid.Resource.Id.scrollable;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.search_badge = global::XamlKeypad.Droid.Resource.Id.search_badge;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.search_bar = global::XamlKeypad.Droid.Resource.Id.search_bar;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.search_button = global::XamlKeypad.Droid.Resource.Id.search_button;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.search_close_btn = global::XamlKeypad.Droid.Resource.Id.search_close_btn;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.search_edit_frame = global::XamlKeypad.Droid.Resource.Id.search_edit_frame;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.search_go_btn = global::XamlKeypad.Droid.Resource.Id.search_go_btn;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.search_mag_icon = global::XamlKeypad.Droid.Resource.Id.search_mag_icon;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.search_plate = global::XamlKeypad.Droid.Resource.Id.search_plate;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.search_src_text = global::XamlKeypad.Droid.Resource.Id.search_src_text;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.search_voice_btn = global::XamlKeypad.Droid.Resource.Id.search_voice_btn;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.select_dialog_listview = global::XamlKeypad.Droid.Resource.Id.select_dialog_listview;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.shortcut = global::XamlKeypad.Droid.Resource.Id.shortcut;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.showCustom = global::XamlKeypad.Droid.Resource.Id.showCustom;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.showHome = global::XamlKeypad.Droid.Resource.Id.showHome;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.showTitle = global::XamlKeypad.Droid.Resource.Id.showTitle;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.snackbar_action = global::XamlKeypad.Droid.Resource.Id.snackbar_action;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.snackbar_text = global::XamlKeypad.Droid.Resource.Id.snackbar_text;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.snap = global::XamlKeypad.Droid.Resource.Id.snap;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.spacer = global::XamlKeypad.Droid.Resource.Id.spacer;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.split_action_bar = global::XamlKeypad.Droid.Resource.Id.split_action_bar;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.src_atop = global::XamlKeypad.Droid.Resource.Id.src_atop;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.src_in = global::XamlKeypad.Droid.Resource.Id.src_in;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.src_over = global::XamlKeypad.Droid.Resource.Id.src_over;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.start = global::XamlKeypad.Droid.Resource.Id.start;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.status_bar_latest_event_content = global::XamlKeypad.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.submit_area = global::XamlKeypad.Droid.Resource.Id.submit_area;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.tabMode = global::XamlKeypad.Droid.Resource.Id.tabMode;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.text = global::XamlKeypad.Droid.Resource.Id.text;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.text2 = global::XamlKeypad.Droid.Resource.Id.text2;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.textSpacerNoButtons = global::XamlKeypad.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.time = global::XamlKeypad.Droid.Resource.Id.time;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.title = global::XamlKeypad.Droid.Resource.Id.title;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.title_template = global::XamlKeypad.Droid.Resource.Id.title_template;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.top = global::XamlKeypad.Droid.Resource.Id.top;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.topPanel = global::XamlKeypad.Droid.Resource.Id.topPanel;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.touch_outside = global::XamlKeypad.Droid.Resource.Id.touch_outside;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.up = global::XamlKeypad.Droid.Resource.Id.up;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.useLogo = global::XamlKeypad.Droid.Resource.Id.useLogo;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.view_offset_helper = global::XamlKeypad.Droid.Resource.Id.view_offset_helper;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.volume_item_container = global::XamlKeypad.Droid.Resource.Id.volume_item_container;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.withText = global::XamlKeypad.Droid.Resource.Id.withText;
+			global::Xamarin.RangeSlider.Forms.Resource.Id.wrap_content = global::XamlKeypad.Droid.Resource.Id.wrap_content;
+			global::Xamarin.RangeSlider.Forms.Resource.Integer.abc_config_activityDefaultDur = global::XamlKeypad.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xamarin.RangeSlider.Forms.Resource.Integer.abc_config_activityShortDur = global::XamlKeypad.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xamarin.RangeSlider.Forms.Resource.Integer.abc_max_action_buttons = global::XamlKeypad.Droid.Resource.Integer.abc_max_action_buttons;
+			global::Xamarin.RangeSlider.Forms.Resource.Integer.bottom_sheet_slide_duration = global::XamlKeypad.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xamarin.RangeSlider.Forms.Resource.Integer.cancel_button_image_alpha = global::XamlKeypad.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Integer.design_snackbar_text_max_lines = global::XamlKeypad.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xamarin.RangeSlider.Forms.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::XamlKeypad.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::Xamarin.RangeSlider.Forms.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::XamlKeypad.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::Xamarin.RangeSlider.Forms.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::XamlKeypad.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::Xamarin.RangeSlider.Forms.Resource.Integer.status_bar_notification_info_maxnum = global::XamlKeypad.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.RangeSlider.Forms.Resource.Interpolator.mr_fast_out_slow_in = global::XamlKeypad.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::Xamarin.RangeSlider.Forms.Resource.Interpolator.mr_linear_out_slow_in = global::XamlKeypad.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_action_bar_title_item = global::XamlKeypad.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_action_bar_up_container = global::XamlKeypad.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_action_bar_view_list_nav_layout = global::XamlKeypad.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_action_menu_item_layout = global::XamlKeypad.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_action_menu_layout = global::XamlKeypad.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_action_mode_bar = global::XamlKeypad.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_action_mode_close_item_material = global::XamlKeypad.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_activity_chooser_view = global::XamlKeypad.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_activity_chooser_view_list_item = global::XamlKeypad.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_alert_dialog_button_bar_material = global::XamlKeypad.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_alert_dialog_material = global::XamlKeypad.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_dialog_title_material = global::XamlKeypad.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_expanded_menu_layout = global::XamlKeypad.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_list_menu_item_checkbox = global::XamlKeypad.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_list_menu_item_icon = global::XamlKeypad.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_list_menu_item_layout = global::XamlKeypad.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_list_menu_item_radio = global::XamlKeypad.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_popup_menu_item_layout = global::XamlKeypad.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_screen_content_include = global::XamlKeypad.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_screen_simple = global::XamlKeypad.Droid.Resource.Layout.abc_screen_simple;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_screen_simple_overlay_action_mode = global::XamlKeypad.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_screen_toolbar = global::XamlKeypad.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_search_dropdown_item_icons_2line = global::XamlKeypad.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_search_view = global::XamlKeypad.Droid.Resource.Layout.abc_search_view;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.abc_select_dialog_material = global::XamlKeypad.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.design_bottom_sheet_dialog = global::XamlKeypad.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.design_layout_snackbar = global::XamlKeypad.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.design_layout_snackbar_include = global::XamlKeypad.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.design_layout_tab_icon = global::XamlKeypad.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.design_layout_tab_text = global::XamlKeypad.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.design_menu_item_action_area = global::XamlKeypad.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.design_navigation_item = global::XamlKeypad.Droid.Resource.Layout.design_navigation_item;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.design_navigation_item_header = global::XamlKeypad.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.design_navigation_item_separator = global::XamlKeypad.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.design_navigation_item_subheader = global::XamlKeypad.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.design_navigation_menu = global::XamlKeypad.Droid.Resource.Layout.design_navigation_menu;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.design_navigation_menu_item = global::XamlKeypad.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.mr_chooser_dialog = global::XamlKeypad.Droid.Resource.Layout.mr_chooser_dialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.mr_chooser_list_item = global::XamlKeypad.Droid.Resource.Layout.mr_chooser_list_item;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.mr_controller_material_dialog_b = global::XamlKeypad.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.mr_controller_volume_item = global::XamlKeypad.Droid.Resource.Layout.mr_controller_volume_item;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.mr_playback_control = global::XamlKeypad.Droid.Resource.Layout.mr_playback_control;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.mr_volume_control = global::XamlKeypad.Droid.Resource.Layout.mr_volume_control;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.notification_media_action = global::XamlKeypad.Droid.Resource.Layout.notification_media_action;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.notification_media_cancel_action = global::XamlKeypad.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.notification_template_big_media = global::XamlKeypad.Droid.Resource.Layout.notification_template_big_media;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.notification_template_big_media_narrow = global::XamlKeypad.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.notification_template_lines = global::XamlKeypad.Droid.Resource.Layout.notification_template_lines;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.notification_template_media = global::XamlKeypad.Droid.Resource.Layout.notification_template_media;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.notification_template_part_chronometer = global::XamlKeypad.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.notification_template_part_time = global::XamlKeypad.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.select_dialog_item_material = global::XamlKeypad.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.select_dialog_multichoice_material = global::XamlKeypad.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.select_dialog_singlechoice_material = global::XamlKeypad.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.RangeSlider.Forms.Resource.Layout.support_simple_spinner_dropdown_item = global::XamlKeypad.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.RangeSlider.Forms.Resource.String.ApplicationName = global::XamlKeypad.Droid.Resource.String.ApplicationName;
+			global::Xamarin.RangeSlider.Forms.Resource.String.Hello = global::XamlKeypad.Droid.Resource.String.Hello;
+			global::Xamarin.RangeSlider.Forms.Resource.String.abc_action_bar_home_description = global::XamlKeypad.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xamarin.RangeSlider.Forms.Resource.String.abc_action_bar_home_description_format = global::XamlKeypad.Droid.Resource.String.abc_action_bar_home_description_format;
+			global::Xamarin.RangeSlider.Forms.Resource.String.abc_action_bar_home_subtitle_description_format = global::XamlKeypad.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::Xamarin.RangeSlider.Forms.Resource.String.abc_action_bar_up_description = global::XamlKeypad.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xamarin.RangeSlider.Forms.Resource.String.abc_action_menu_overflow_description = global::XamlKeypad.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xamarin.RangeSlider.Forms.Resource.String.abc_action_mode_done = global::XamlKeypad.Droid.Resource.String.abc_action_mode_done;
+			global::Xamarin.RangeSlider.Forms.Resource.String.abc_activity_chooser_view_see_all = global::XamlKeypad.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xamarin.RangeSlider.Forms.Resource.String.abc_activitychooserview_choose_application = global::XamlKeypad.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xamarin.RangeSlider.Forms.Resource.String.abc_capital_off = global::XamlKeypad.Droid.Resource.String.abc_capital_off;
+			global::Xamarin.RangeSlider.Forms.Resource.String.abc_capital_on = global::XamlKeypad.Droid.Resource.String.abc_capital_on;
+			global::Xamarin.RangeSlider.Forms.Resource.String.abc_search_hint = global::XamlKeypad.Droid.Resource.String.abc_search_hint;
+			global::Xamarin.RangeSlider.Forms.Resource.String.abc_searchview_description_clear = global::XamlKeypad.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xamarin.RangeSlider.Forms.Resource.String.abc_searchview_description_query = global::XamlKeypad.Droid.Resource.String.abc_searchview_description_query;
+			global::Xamarin.RangeSlider.Forms.Resource.String.abc_searchview_description_search = global::XamlKeypad.Droid.Resource.String.abc_searchview_description_search;
+			global::Xamarin.RangeSlider.Forms.Resource.String.abc_searchview_description_submit = global::XamlKeypad.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xamarin.RangeSlider.Forms.Resource.String.abc_searchview_description_voice = global::XamlKeypad.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xamarin.RangeSlider.Forms.Resource.String.abc_shareactionprovider_share_with = global::XamlKeypad.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xamarin.RangeSlider.Forms.Resource.String.abc_shareactionprovider_share_with_application = global::XamlKeypad.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xamarin.RangeSlider.Forms.Resource.String.abc_toolbar_collapse_description = global::XamlKeypad.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.RangeSlider.Forms.Resource.String.app_name = global::XamlKeypad.Droid.Resource.String.app_name;
+			global::Xamarin.RangeSlider.Forms.Resource.String.appbar_scrolling_view_behavior = global::XamlKeypad.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xamarin.RangeSlider.Forms.Resource.String.bottom_sheet_behavior = global::XamlKeypad.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xamarin.RangeSlider.Forms.Resource.String.character_counter_pattern = global::XamlKeypad.Droid.Resource.String.character_counter_pattern;
+			global::Xamarin.RangeSlider.Forms.Resource.String.demo_max_label = global::XamlKeypad.Droid.Resource.String.demo_max_label;
+			global::Xamarin.RangeSlider.Forms.Resource.String.demo_min_label = global::XamlKeypad.Droid.Resource.String.demo_min_label;
+			global::Xamarin.RangeSlider.Forms.Resource.String.mr_button_content_description = global::XamlKeypad.Droid.Resource.String.mr_button_content_description;
+			global::Xamarin.RangeSlider.Forms.Resource.String.mr_chooser_searching = global::XamlKeypad.Droid.Resource.String.mr_chooser_searching;
+			global::Xamarin.RangeSlider.Forms.Resource.String.mr_chooser_title = global::XamlKeypad.Droid.Resource.String.mr_chooser_title;
+			global::Xamarin.RangeSlider.Forms.Resource.String.mr_controller_casting_screen = global::XamlKeypad.Droid.Resource.String.mr_controller_casting_screen;
+			global::Xamarin.RangeSlider.Forms.Resource.String.mr_controller_close_description = global::XamlKeypad.Droid.Resource.String.mr_controller_close_description;
+			global::Xamarin.RangeSlider.Forms.Resource.String.mr_controller_collapse_group = global::XamlKeypad.Droid.Resource.String.mr_controller_collapse_group;
+			global::Xamarin.RangeSlider.Forms.Resource.String.mr_controller_disconnect = global::XamlKeypad.Droid.Resource.String.mr_controller_disconnect;
+			global::Xamarin.RangeSlider.Forms.Resource.String.mr_controller_expand_group = global::XamlKeypad.Droid.Resource.String.mr_controller_expand_group;
+			global::Xamarin.RangeSlider.Forms.Resource.String.mr_controller_no_info_available = global::XamlKeypad.Droid.Resource.String.mr_controller_no_info_available;
+			global::Xamarin.RangeSlider.Forms.Resource.String.mr_controller_no_media_selected = global::XamlKeypad.Droid.Resource.String.mr_controller_no_media_selected;
+			global::Xamarin.RangeSlider.Forms.Resource.String.mr_controller_pause = global::XamlKeypad.Droid.Resource.String.mr_controller_pause;
+			global::Xamarin.RangeSlider.Forms.Resource.String.mr_controller_play = global::XamlKeypad.Droid.Resource.String.mr_controller_play;
+			global::Xamarin.RangeSlider.Forms.Resource.String.mr_controller_stop = global::XamlKeypad.Droid.Resource.String.mr_controller_stop;
+			global::Xamarin.RangeSlider.Forms.Resource.String.mr_system_route_name = global::XamlKeypad.Droid.Resource.String.mr_system_route_name;
+			global::Xamarin.RangeSlider.Forms.Resource.String.mr_user_route_category_name = global::XamlKeypad.Droid.Resource.String.mr_user_route_category_name;
+			global::Xamarin.RangeSlider.Forms.Resource.String.status_bar_notification_info_overflow = global::XamlKeypad.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.AlertDialog_AppCompat = global::XamlKeypad.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.AlertDialog_AppCompat_Light = global::XamlKeypad.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Animation_AppCompat_Dialog = global::XamlKeypad.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Animation_AppCompat_DropDownUp = global::XamlKeypad.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Animation_Design_BottomSheetDialog = global::XamlKeypad.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_AlertDialog_AppCompat = global::XamlKeypad.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_AlertDialog_AppCompat_Light = global::XamlKeypad.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Animation_AppCompat_Dialog = global::XamlKeypad.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::XamlKeypad.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_CardView = global::XamlKeypad.Droid.Resource.Style.Base_CardView;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_DialogWindowTitle_AppCompat = global::XamlKeypad.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::XamlKeypad.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Button = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Large = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Small = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Title = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::XamlKeypad.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Theme_AppCompat = global::XamlKeypad.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::XamlKeypad.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Theme_AppCompat_Dialog = global::XamlKeypad.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::XamlKeypad.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::XamlKeypad.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::XamlKeypad.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::XamlKeypad.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Theme_AppCompat_Light = global::XamlKeypad.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::XamlKeypad.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::XamlKeypad.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::XamlKeypad.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::XamlKeypad.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::XamlKeypad.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::XamlKeypad.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_ThemeOverlay_AppCompat = global::XamlKeypad.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::XamlKeypad.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::XamlKeypad.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::XamlKeypad.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::XamlKeypad.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::XamlKeypad.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::XamlKeypad.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::XamlKeypad.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::XamlKeypad.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_V21_Theme_AppCompat = global::XamlKeypad.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::XamlKeypad.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_V21_Theme_AppCompat_Light = global::XamlKeypad.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::XamlKeypad.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_V22_Theme_AppCompat = global::XamlKeypad.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_V22_Theme_AppCompat_Light = global::XamlKeypad.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_V23_Theme_AppCompat = global::XamlKeypad.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_V23_Theme_AppCompat_Light = global::XamlKeypad.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_V7_Theme_AppCompat = global::XamlKeypad.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::XamlKeypad.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_V7_Theme_AppCompat_Light = global::XamlKeypad.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::XamlKeypad.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::XamlKeypad.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::XamlKeypad.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_ActionButton = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_ActionMode = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_Button = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_Button_Small = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_EditText = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_ImageButton = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_ListView = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_RatingBar = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_SearchView = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_SeekBar = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_Spinner = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_Toolbar = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::XamlKeypad.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Base_Widget_Design_TabLayout = global::XamlKeypad.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.CardView = global::XamlKeypad.Droid.Resource.Style.CardView;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.CardView_Dark = global::XamlKeypad.Droid.Resource.Style.CardView_Dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.CardView_Light = global::XamlKeypad.Droid.Resource.Style.CardView_Light;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Platform_AppCompat = global::XamlKeypad.Droid.Resource.Style.Platform_AppCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Platform_AppCompat_Light = global::XamlKeypad.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Platform_ThemeOverlay_AppCompat = global::XamlKeypad.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::XamlKeypad.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::XamlKeypad.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Platform_V11_AppCompat = global::XamlKeypad.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Platform_V11_AppCompat_Light = global::XamlKeypad.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Platform_V14_AppCompat = global::XamlKeypad.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Platform_V14_AppCompat_Light = global::XamlKeypad.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Platform_Widget_AppCompat_Spinner = global::XamlKeypad.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::XamlKeypad.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::XamlKeypad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::XamlKeypad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::XamlKeypad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::XamlKeypad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::XamlKeypad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::XamlKeypad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::XamlKeypad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::XamlKeypad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::XamlKeypad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::XamlKeypad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::XamlKeypad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::XamlKeypad.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::XamlKeypad.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Body1 = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Body2 = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Button = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Caption = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Display1 = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Display2 = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Display3 = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Display4 = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Headline = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Inverse = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Large = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Medium = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Menu = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Small = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Subhead = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Title = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::XamlKeypad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::XamlKeypad.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_Design_Counter = global::XamlKeypad.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_Design_Counter_Overflow = global::XamlKeypad.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_Design_Error = global::XamlKeypad.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_Design_Hint = global::XamlKeypad.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_Design_Snackbar_Message = global::XamlKeypad.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_Design_Tab = global::XamlKeypad.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_StatusBar_EventContent = global::XamlKeypad.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::XamlKeypad.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::XamlKeypad.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::XamlKeypad.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::XamlKeypad.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::XamlKeypad.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::XamlKeypad.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::XamlKeypad.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_AppCompat = global::XamlKeypad.Droid.Resource.Style.Theme_AppCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_AppCompat_CompactMenu = global::XamlKeypad.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_AppCompat_DayNight = global::XamlKeypad.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::XamlKeypad.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::XamlKeypad.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::XamlKeypad.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::XamlKeypad.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::XamlKeypad.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::XamlKeypad.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_AppCompat_Dialog = global::XamlKeypad.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_AppCompat_Dialog_Alert = global::XamlKeypad.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::XamlKeypad.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::XamlKeypad.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_AppCompat_Light = global::XamlKeypad.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::XamlKeypad.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_AppCompat_Light_Dialog = global::XamlKeypad.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::XamlKeypad.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::XamlKeypad.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::XamlKeypad.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::XamlKeypad.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_AppCompat_NoActionBar = global::XamlKeypad.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_Design = global::XamlKeypad.Droid.Resource.Style.Theme_Design;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_Design_BottomSheetDialog = global::XamlKeypad.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_Design_Light = global::XamlKeypad.Droid.Resource.Style.Theme_Design_Light;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::XamlKeypad.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_Design_Light_NoActionBar = global::XamlKeypad.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_Design_NoActionBar = global::XamlKeypad.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_MediaRouter = global::XamlKeypad.Droid.Resource.Style.Theme_MediaRouter;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_MediaRouter_Light = global::XamlKeypad.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::XamlKeypad.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Theme_MediaRouter_LightControlPanel = global::XamlKeypad.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.ThemeOverlay_AppCompat = global::XamlKeypad.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::XamlKeypad.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.ThemeOverlay_AppCompat_Dark = global::XamlKeypad.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::XamlKeypad.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.ThemeOverlay_AppCompat_Light = global::XamlKeypad.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_ActionBar = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_ActionButton = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_ActionMode = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_ActivityChooserView = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Button = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Button_Borderless = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Button_Colored = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Button_Small = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_ButtonBar = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_EditText = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_ImageButton = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Light_ActionButton = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Light_SearchView = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_ListPopupWindow = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_ListView = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_ListView_DropDown = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_ListView_Menu = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_PopupMenu = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_PopupWindow = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_ProgressBar = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_RatingBar = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_RatingBar_Small = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_SearchView = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_SeekBar = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Spinner = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Toolbar = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::XamlKeypad.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_Design_AppBarLayout = global::XamlKeypad.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_Design_BottomSheet_Modal = global::XamlKeypad.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_Design_CollapsingToolbar = global::XamlKeypad.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_Design_CoordinatorLayout = global::XamlKeypad.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_Design_FloatingActionButton = global::XamlKeypad.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_Design_NavigationView = global::XamlKeypad.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::XamlKeypad.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_Design_Snackbar = global::XamlKeypad.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_Design_TabLayout = global::XamlKeypad.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_Design_TextInputLayout = global::XamlKeypad.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_MediaRouter_ChooserText = global::XamlKeypad.Droid.Resource.Style.Widget_MediaRouter_ChooserText;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_MediaRouter_ChooserText_Primary = global::XamlKeypad.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Dark = global::XamlKeypad.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Light = global::XamlKeypad.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Light;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_MediaRouter_ChooserText_Secondary = global::XamlKeypad.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Dark = global::XamlKeypad.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Light = global::XamlKeypad.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Light;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_MediaRouter_ControllerText = global::XamlKeypad.Droid.Resource.Style.Widget_MediaRouter_ControllerText;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_MediaRouter_ControllerText_Primary = global::XamlKeypad.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Dark = global::XamlKeypad.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Light = global::XamlKeypad.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Light;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_MediaRouter_ControllerText_Secondary = global::XamlKeypad.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Dark = global::XamlKeypad.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Light = global::XamlKeypad.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Light;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_MediaRouter_ControllerText_Title = global::XamlKeypad.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_MediaRouter_ControllerText_Title_Dark = global::XamlKeypad.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Dark;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_MediaRouter_ControllerText_Title_Light = global::XamlKeypad.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Light;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::XamlKeypad.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::Xamarin.RangeSlider.Forms.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::XamlKeypad.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar = global::XamlKeypad.Droid.Resource.Styleable.ActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_background = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_background;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_backgroundSplit = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_backgroundStacked = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_contentInsetEnd = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_contentInsetLeft = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_contentInsetRight = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_contentInsetStart = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_customNavigationLayout = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_displayOptions = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_divider = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_elevation = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_height = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_height;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_hideOnContentScroll = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_homeAsUpIndicator = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_homeLayout = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_icon = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_itemPadding = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_logo = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_navigationMode = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_popupTheme = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_progressBarPadding = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_progressBarStyle = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_subtitle = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_subtitleTextStyle = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_title = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_title;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBar_titleTextStyle = global::XamlKeypad.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBarLayout = global::XamlKeypad.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::XamlKeypad.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionMenuItemView = global::XamlKeypad.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionMenuItemView_android_minWidth = global::XamlKeypad.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionMenuView = global::XamlKeypad.Droid.Resource.Styleable.ActionMenuView;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionMode = global::XamlKeypad.Droid.Resource.Styleable.ActionMode;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionMode_background = global::XamlKeypad.Droid.Resource.Styleable.ActionMode_background;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionMode_backgroundSplit = global::XamlKeypad.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionMode_closeItemLayout = global::XamlKeypad.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionMode_height = global::XamlKeypad.Droid.Resource.Styleable.ActionMode_height;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionMode_subtitleTextStyle = global::XamlKeypad.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActionMode_titleTextStyle = global::XamlKeypad.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActivityChooserView = global::XamlKeypad.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::XamlKeypad.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ActivityChooserView_initialActivityCount = global::XamlKeypad.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AlertDialog = global::XamlKeypad.Droid.Resource.Styleable.AlertDialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AlertDialog_android_layout = global::XamlKeypad.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::XamlKeypad.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AlertDialog_listItemLayout = global::XamlKeypad.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AlertDialog_listLayout = global::XamlKeypad.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::XamlKeypad.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::XamlKeypad.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppBarLayout = global::XamlKeypad.Droid.Resource.Styleable.AppBarLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppBarLayout_android_background = global::XamlKeypad.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppBarLayout_elevation = global::XamlKeypad.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppBarLayout_expanded = global::XamlKeypad.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppBarLayout_LayoutParams = global::XamlKeypad.Droid.Resource.Styleable.AppBarLayout_LayoutParams;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags = global::XamlKeypad.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator = global::XamlKeypad.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatImageView = global::XamlKeypad.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatImageView_android_src = global::XamlKeypad.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatImageView_srcCompat = global::XamlKeypad.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTextView = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTextView_android_textAppearance = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTextView_textAllCaps = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionBarDivider = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionBarSize = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionBarStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionBarTheme = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionModeBackground = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionModeStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_buttonStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_checkboxStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_colorAccent = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_colorControlActivated = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_colorControlNormal = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_colorPrimary = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_controlBackground = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_dialogTheme = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_dividerVertical = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_editTextBackground = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_editTextColor = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_editTextStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_panelBackground = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_searchViewStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_seekBarStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_spinnerStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_switchStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_toolbarStyle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_windowActionBar = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.AppCompatTheme_windowNoTitle = global::XamlKeypad.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.BottomSheetBehavior_Params = global::XamlKeypad.Droid.Resource.Styleable.BottomSheetBehavior_Params;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable = global::XamlKeypad.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight = global::XamlKeypad.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ButtonBarLayout = global::XamlKeypad.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ButtonBarLayout_allowStacking = global::XamlKeypad.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CardView = global::XamlKeypad.Droid.Resource.Styleable.CardView;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CardView_android_minHeight = global::XamlKeypad.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CardView_android_minWidth = global::XamlKeypad.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CardView_cardBackgroundColor = global::XamlKeypad.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CardView_cardCornerRadius = global::XamlKeypad.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CardView_cardElevation = global::XamlKeypad.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CardView_cardMaxElevation = global::XamlKeypad.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CardView_cardPreventCornerOverlap = global::XamlKeypad.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CardView_cardUseCompatPadding = global::XamlKeypad.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CardView_contentPadding = global::XamlKeypad.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CardView_contentPaddingBottom = global::XamlKeypad.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CardView_contentPaddingLeft = global::XamlKeypad.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CardView_contentPaddingRight = global::XamlKeypad.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CardView_contentPaddingTop = global::XamlKeypad.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CollapsingAppBarLayout_LayoutParams = global::XamlKeypad.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode = global::XamlKeypad.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = global::XamlKeypad.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CollapsingToolbarLayout = global::XamlKeypad.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::XamlKeypad.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::XamlKeypad.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::XamlKeypad.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::XamlKeypad.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::XamlKeypad.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::XamlKeypad.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::XamlKeypad.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::XamlKeypad.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::XamlKeypad.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::XamlKeypad.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::XamlKeypad.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CollapsingToolbarLayout_title = global::XamlKeypad.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::XamlKeypad.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::XamlKeypad.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CompoundButton = global::XamlKeypad.Droid.Resource.Styleable.CompoundButton;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CompoundButton_android_button = global::XamlKeypad.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CompoundButton_buttonTint = global::XamlKeypad.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CompoundButton_buttonTintMode = global::XamlKeypad.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CoordinatorLayout = global::XamlKeypad.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CoordinatorLayout_keylines = global::XamlKeypad.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::XamlKeypad.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CoordinatorLayout_LayoutParams = global::XamlKeypad.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity = global::XamlKeypad.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor = global::XamlKeypad.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity = global::XamlKeypad.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior = global::XamlKeypad.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline = global::XamlKeypad.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.DesignTheme = global::XamlKeypad.Droid.Resource.Styleable.DesignTheme;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::XamlKeypad.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.DesignTheme_bottomSheetStyle = global::XamlKeypad.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.DesignTheme_textColorError = global::XamlKeypad.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.DrawerArrowToggle = global::XamlKeypad.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::XamlKeypad.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::XamlKeypad.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.DrawerArrowToggle_barLength = global::XamlKeypad.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.DrawerArrowToggle_color = global::XamlKeypad.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.DrawerArrowToggle_drawableSize = global::XamlKeypad.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::XamlKeypad.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.DrawerArrowToggle_spinBars = global::XamlKeypad.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.DrawerArrowToggle_thickness = global::XamlKeypad.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.FloatingActionButton = global::XamlKeypad.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.FloatingActionButton_backgroundTint = global::XamlKeypad.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::XamlKeypad.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.FloatingActionButton_borderWidth = global::XamlKeypad.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.FloatingActionButton_elevation = global::XamlKeypad.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.FloatingActionButton_fabSize = global::XamlKeypad.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::XamlKeypad.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.FloatingActionButton_rippleColor = global::XamlKeypad.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.FloatingActionButton_useCompatPadding = global::XamlKeypad.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ForegroundLinearLayout = global::XamlKeypad.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::XamlKeypad.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::XamlKeypad.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::XamlKeypad.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.LinearLayoutCompat = global::XamlKeypad.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::XamlKeypad.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::XamlKeypad.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.LinearLayoutCompat_android_gravity = global::XamlKeypad.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.LinearLayoutCompat_android_orientation = global::XamlKeypad.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::XamlKeypad.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.LinearLayoutCompat_divider = global::XamlKeypad.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::XamlKeypad.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::XamlKeypad.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.LinearLayoutCompat_showDividers = global::XamlKeypad.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.LinearLayoutCompat_Layout = global::XamlKeypad.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::XamlKeypad.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::XamlKeypad.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::XamlKeypad.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::XamlKeypad.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ListPopupWindow = global::XamlKeypad.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::XamlKeypad.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::XamlKeypad.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MediaRouteButton = global::XamlKeypad.Droid.Resource.Styleable.MediaRouteButton;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MediaRouteButton_android_minHeight = global::XamlKeypad.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MediaRouteButton_android_minWidth = global::XamlKeypad.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::XamlKeypad.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuGroup = global::XamlKeypad.Droid.Resource.Styleable.MenuGroup;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuGroup_android_checkableBehavior = global::XamlKeypad.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuGroup_android_enabled = global::XamlKeypad.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuGroup_android_id = global::XamlKeypad.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuGroup_android_menuCategory = global::XamlKeypad.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuGroup_android_orderInCategory = global::XamlKeypad.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuGroup_android_visible = global::XamlKeypad.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuItem = global::XamlKeypad.Droid.Resource.Styleable.MenuItem;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuItem_actionLayout = global::XamlKeypad.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuItem_actionProviderClass = global::XamlKeypad.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuItem_actionViewClass = global::XamlKeypad.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::XamlKeypad.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuItem_android_checkable = global::XamlKeypad.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuItem_android_checked = global::XamlKeypad.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuItem_android_enabled = global::XamlKeypad.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuItem_android_icon = global::XamlKeypad.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuItem_android_id = global::XamlKeypad.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuItem_android_menuCategory = global::XamlKeypad.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuItem_android_numericShortcut = global::XamlKeypad.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuItem_android_onClick = global::XamlKeypad.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuItem_android_orderInCategory = global::XamlKeypad.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuItem_android_title = global::XamlKeypad.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuItem_android_titleCondensed = global::XamlKeypad.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuItem_android_visible = global::XamlKeypad.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuItem_showAsAction = global::XamlKeypad.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuView = global::XamlKeypad.Droid.Resource.Styleable.MenuView;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuView_android_headerBackground = global::XamlKeypad.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuView_android_horizontalDivider = global::XamlKeypad.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuView_android_itemBackground = global::XamlKeypad.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::XamlKeypad.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuView_android_itemTextAppearance = global::XamlKeypad.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuView_android_verticalDivider = global::XamlKeypad.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuView_android_windowAnimationStyle = global::XamlKeypad.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.MenuView_preserveIconSpacing = global::XamlKeypad.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.NavigationView = global::XamlKeypad.Droid.Resource.Styleable.NavigationView;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.NavigationView_android_background = global::XamlKeypad.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::XamlKeypad.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.NavigationView_android_maxWidth = global::XamlKeypad.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.NavigationView_elevation = global::XamlKeypad.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.NavigationView_headerLayout = global::XamlKeypad.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.NavigationView_itemBackground = global::XamlKeypad.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.NavigationView_itemIconTint = global::XamlKeypad.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.NavigationView_itemTextAppearance = global::XamlKeypad.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.NavigationView_itemTextColor = global::XamlKeypad.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.NavigationView_menu = global::XamlKeypad.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.PopupWindow = global::XamlKeypad.Droid.Resource.Styleable.PopupWindow;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.PopupWindow_android_popupBackground = global::XamlKeypad.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.PopupWindow_overlapAnchor = global::XamlKeypad.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.PopupWindowBackgroundState = global::XamlKeypad.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::XamlKeypad.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_absoluteMaxValue = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_absoluteMaxValue;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_absoluteMinValue = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_absoluteMinValue;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_activateOnDefaultValues = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_activateOnDefaultValues;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_activeColor = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_activeColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_alwaysActive = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_alwaysActive;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_barHeight = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_barHeight;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_defaultColor = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_defaultColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_internalPadding = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_internalPadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_maxThumbHidden = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_maxThumbHidden;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_minThumbHidden = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_minThumbHidden;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_showRangeLabels = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_showRangeLabels;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_stepValue = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_stepValue;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_stepValueContinuously = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_stepValueContinuously;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_textAboveThumbsColor = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_textAboveThumbsColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_textSize = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_textSize;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_thumbDisabled = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_thumbDisabled;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_thumbNormal = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_thumbNormal;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_thumbPressed = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_thumbPressed;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_thumbShadow = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_thumbShadow;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_thumbShadowBlur = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_thumbShadowBlur;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_thumbShadowColor = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_thumbShadowColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_thumbShadowXOffset = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_thumbShadowXOffset;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_thumbShadowYOffset = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_thumbShadowYOffset;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RangeSliderControl_valuesAboveThumbs = global::XamlKeypad.Droid.Resource.Styleable.RangeSliderControl_valuesAboveThumbs;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RecyclerView = global::XamlKeypad.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RecyclerView_android_orientation = global::XamlKeypad.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RecyclerView_layoutManager = global::XamlKeypad.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RecyclerView_reverseLayout = global::XamlKeypad.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RecyclerView_spanCount = global::XamlKeypad.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.RecyclerView_stackFromEnd = global::XamlKeypad.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ScrimInsetsFrameLayout = global::XamlKeypad.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::XamlKeypad.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ScrollingViewBehavior_Params = global::XamlKeypad.Droid.Resource.Styleable.ScrollingViewBehavior_Params;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop = global::XamlKeypad.Droid.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SearchView = global::XamlKeypad.Droid.Resource.Styleable.SearchView;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SearchView_android_focusable = global::XamlKeypad.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SearchView_android_imeOptions = global::XamlKeypad.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SearchView_android_inputType = global::XamlKeypad.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SearchView_android_maxWidth = global::XamlKeypad.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SearchView_closeIcon = global::XamlKeypad.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SearchView_commitIcon = global::XamlKeypad.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SearchView_defaultQueryHint = global::XamlKeypad.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SearchView_goIcon = global::XamlKeypad.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SearchView_iconifiedByDefault = global::XamlKeypad.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SearchView_layout = global::XamlKeypad.Droid.Resource.Styleable.SearchView_layout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SearchView_queryBackground = global::XamlKeypad.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SearchView_queryHint = global::XamlKeypad.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SearchView_searchHintIcon = global::XamlKeypad.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SearchView_searchIcon = global::XamlKeypad.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SearchView_submitBackground = global::XamlKeypad.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SearchView_suggestionRowLayout = global::XamlKeypad.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SearchView_voiceIcon = global::XamlKeypad.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SnackbarLayout = global::XamlKeypad.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SnackbarLayout_android_maxWidth = global::XamlKeypad.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SnackbarLayout_elevation = global::XamlKeypad.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::XamlKeypad.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Spinner = global::XamlKeypad.Droid.Resource.Styleable.Spinner;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Spinner_android_dropDownWidth = global::XamlKeypad.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Spinner_android_entries = global::XamlKeypad.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Spinner_android_popupBackground = global::XamlKeypad.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Spinner_android_prompt = global::XamlKeypad.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Spinner_popupTheme = global::XamlKeypad.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SwitchCompat = global::XamlKeypad.Droid.Resource.Styleable.SwitchCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SwitchCompat_android_textOff = global::XamlKeypad.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SwitchCompat_android_textOn = global::XamlKeypad.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SwitchCompat_android_thumb = global::XamlKeypad.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SwitchCompat_showText = global::XamlKeypad.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SwitchCompat_splitTrack = global::XamlKeypad.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SwitchCompat_switchMinWidth = global::XamlKeypad.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SwitchCompat_switchPadding = global::XamlKeypad.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SwitchCompat_switchTextAppearance = global::XamlKeypad.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SwitchCompat_thumbTextPadding = global::XamlKeypad.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.SwitchCompat_track = global::XamlKeypad.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TabItem = global::XamlKeypad.Droid.Resource.Styleable.TabItem;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TabItem_android_icon = global::XamlKeypad.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TabItem_android_layout = global::XamlKeypad.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TabItem_android_text = global::XamlKeypad.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TabLayout = global::XamlKeypad.Droid.Resource.Styleable.TabLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TabLayout_tabBackground = global::XamlKeypad.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TabLayout_tabContentStart = global::XamlKeypad.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TabLayout_tabGravity = global::XamlKeypad.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TabLayout_tabIndicatorColor = global::XamlKeypad.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TabLayout_tabIndicatorHeight = global::XamlKeypad.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TabLayout_tabMaxWidth = global::XamlKeypad.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TabLayout_tabMinWidth = global::XamlKeypad.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TabLayout_tabMode = global::XamlKeypad.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TabLayout_tabPadding = global::XamlKeypad.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TabLayout_tabPaddingBottom = global::XamlKeypad.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TabLayout_tabPaddingEnd = global::XamlKeypad.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TabLayout_tabPaddingStart = global::XamlKeypad.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TabLayout_tabPaddingTop = global::XamlKeypad.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TabLayout_tabSelectedTextColor = global::XamlKeypad.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TabLayout_tabTextAppearance = global::XamlKeypad.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TabLayout_tabTextColor = global::XamlKeypad.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TextAppearance = global::XamlKeypad.Droid.Resource.Styleable.TextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TextAppearance_android_shadowColor = global::XamlKeypad.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TextAppearance_android_shadowDx = global::XamlKeypad.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TextAppearance_android_shadowDy = global::XamlKeypad.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TextAppearance_android_shadowRadius = global::XamlKeypad.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TextAppearance_android_textColor = global::XamlKeypad.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TextAppearance_android_textSize = global::XamlKeypad.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TextAppearance_android_textStyle = global::XamlKeypad.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TextAppearance_android_typeface = global::XamlKeypad.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TextAppearance_textAllCaps = global::XamlKeypad.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TextInputLayout = global::XamlKeypad.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TextInputLayout_android_hint = global::XamlKeypad.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TextInputLayout_android_textColorHint = global::XamlKeypad.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TextInputLayout_counterEnabled = global::XamlKeypad.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TextInputLayout_counterMaxLength = global::XamlKeypad.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::XamlKeypad.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TextInputLayout_counterTextAppearance = global::XamlKeypad.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TextInputLayout_errorEnabled = global::XamlKeypad.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TextInputLayout_errorTextAppearance = global::XamlKeypad.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::XamlKeypad.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TextInputLayout_hintEnabled = global::XamlKeypad.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.TextInputLayout_hintTextAppearance = global::XamlKeypad.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar = global::XamlKeypad.Droid.Resource.Styleable.Toolbar;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_android_gravity = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_android_minHeight = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_collapseContentDescription = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_collapseIcon = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_contentInsetEnd = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_contentInsetLeft = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_contentInsetRight = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_contentInsetStart = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_logo = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_logoDescription = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_maxButtonHeight = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_navigationContentDescription = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_navigationIcon = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_popupTheme = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_subtitle = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_subtitleTextAppearance = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_subtitleTextColor = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_title = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_title;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_titleMarginBottom = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_titleMarginEnd = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_titleMarginStart = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_titleMarginTop = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_titleMargins = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_titleTextAppearance = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.Toolbar_titleTextColor = global::XamlKeypad.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.View = global::XamlKeypad.Droid.Resource.Styleable.View;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.View_android_focusable = global::XamlKeypad.Droid.Resource.Styleable.View_android_focusable;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.View_android_theme = global::XamlKeypad.Droid.Resource.Styleable.View_android_theme;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.View_paddingEnd = global::XamlKeypad.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.View_paddingStart = global::XamlKeypad.Droid.Resource.Styleable.View_paddingStart;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.View_theme = global::XamlKeypad.Droid.Resource.Styleable.View_theme;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ViewBackgroundHelper = global::XamlKeypad.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ViewBackgroundHelper_android_background = global::XamlKeypad.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::XamlKeypad.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::XamlKeypad.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ViewStubCompat = global::XamlKeypad.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ViewStubCompat_android_id = global::XamlKeypad.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ViewStubCompat_android_inflatedId = global::XamlKeypad.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xamarin.RangeSlider.Forms.Resource.Styleable.ViewStubCompat_android_layout = global::XamlKeypad.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 		}
 		
 		public partial class Animation
@@ -1881,6 +3777,12 @@ namespace XamlKeypad.Droid
 			
 			// aapt resource value: 0x7f010004
 			public const int MediaRouteControllerWindowBackground = 2130771972;
+			
+			// aapt resource value: 0x7f01013d
+			public const int absoluteMaxValue = 2130772285;
+			
+			// aapt resource value: 0x7f01013c
+			public const int absoluteMinValue = 2130772284;
 			
 			// aapt resource value: 0x7f010061
 			public const int actionBarDivider = 2130772065;
@@ -1981,6 +3883,12 @@ namespace XamlKeypad.Droid
 			// aapt resource value: 0x7f0100ca
 			public const int actionViewClass = 2130772170;
 			
+			// aapt resource value: 0x7f010150
+			public const int activateOnDefaultValues = 2130772304;
+			
+			// aapt resource value: 0x7f010146
+			public const int activeColor = 2130772294;
+			
 			// aapt resource value: 0x7f010083
 			public const int activityChooserViewStyle = 2130772099;
 			
@@ -1998,6 +3906,9 @@ namespace XamlKeypad.Droid
 			
 			// aapt resource value: 0x7f0100ba
 			public const int allowStacking = 2130772154;
+			
+			// aapt resource value: 0x7f010141
+			public const int alwaysActive = 2130772289;
 			
 			// aapt resource value: 0x7f0100c1
 			public const int arrowHeadLength = 2130772161;
@@ -2022,6 +3933,9 @@ namespace XamlKeypad.Droid
 			
 			// aapt resource value: 0x7f0100f6
 			public const int backgroundTintMode = 2130772214;
+			
+			// aapt resource value: 0x7f010144
+			public const int barHeight = 2130772292;
 			
 			// aapt resource value: 0x7f0100c3
 			public const int barLength = 2130772163;
@@ -2197,6 +4111,9 @@ namespace XamlKeypad.Droid
 			// aapt resource value: 0x7f010035
 			public const int customNavigationLayout = 2130772021;
 			
+			// aapt resource value: 0x7f010145
+			public const int defaultColor = 2130772293;
+			
 			// aapt resource value: 0x7f0100d2
 			public const int defaultQueryHint = 2130772178;
 			
@@ -2335,6 +4252,9 @@ namespace XamlKeypad.Droid
 			// aapt resource value: 0x7f010120
 			public const int insetForeground = 2130772256;
 			
+			// aapt resource value: 0x7f010143
+			public const int internalPadding = 2130772291;
+			
 			// aapt resource value: 0x7f010028
 			public const int isLightTheme = 2130772008;
 			
@@ -2428,6 +4348,9 @@ namespace XamlKeypad.Droid
 			// aapt resource value: 0x7f0100ea
 			public const int maxButtonHeight = 2130772202;
 			
+			// aapt resource value: 0x7f01013f
+			public const int maxThumbHidden = 2130772287;
+			
 			// aapt resource value: 0x7f0100c5
 			public const int measureWithLargestChild = 2130772165;
 			
@@ -2496,6 +4419,9 @@ namespace XamlKeypad.Droid
 			
 			// aapt resource value: 0x7f01011a
 			public const int menu = 2130772250;
+			
+			// aapt resource value: 0x7f01013e
+			public const int minThumbHidden = 2130772286;
 			
 			// aapt resource value: 0x7f010047
 			public const int multiChoiceItemLayout = 2130772039;
@@ -2596,6 +4522,9 @@ namespace XamlKeypad.Droid
 			// aapt resource value: 0x7f0100c6
 			public const int showDividers = 2130772166;
 			
+			// aapt resource value: 0x7f010140
+			public const int showRangeLabels = 2130772288;
+			
 			// aapt resource value: 0x7f0100e2
 			public const int showText = 2130772194;
 			
@@ -2631,6 +4560,12 @@ namespace XamlKeypad.Droid
 			
 			// aapt resource value: 0x7f010106
 			public const int statusBarScrim = 2130772230;
+			
+			// aapt resource value: 0x7f010151
+			public const int stepValue = 2130772305;
+			
+			// aapt resource value: 0x7f010152
+			public const int stepValueContinuously = 2130772306;
 			
 			// aapt resource value: 0x7f0100db
 			public const int submitBackground = 2130772187;
@@ -2710,6 +4645,9 @@ namespace XamlKeypad.Droid
 			// aapt resource value: 0x7f01012c
 			public const int tabTextColor = 2130772268;
 			
+			// aapt resource value: 0x7f010147
+			public const int textAboveThumbsColor = 2130772295;
+			
 			// aapt resource value: 0x7f01004b
 			public const int textAllCaps = 2130772043;
 			
@@ -2740,11 +4678,38 @@ namespace XamlKeypad.Droid
 			// aapt resource value: 0x7f01008d
 			public const int textColorSearchUrl = 2130772109;
 			
+			// aapt resource value: 0x7f010153
+			public const int textSize = 2130772307;
+			
 			// aapt resource value: 0x7f0100f4
 			public const int theme = 2130772212;
 			
 			// aapt resource value: 0x7f0100c4
 			public const int thickness = 2130772164;
+			
+			// aapt resource value: 0x7f01014a
+			public const int thumbDisabled = 2130772298;
+			
+			// aapt resource value: 0x7f010148
+			public const int thumbNormal = 2130772296;
+			
+			// aapt resource value: 0x7f010149
+			public const int thumbPressed = 2130772297;
+			
+			// aapt resource value: 0x7f01014b
+			public const int thumbShadow = 2130772299;
+			
+			// aapt resource value: 0x7f01014f
+			public const int thumbShadowBlur = 2130772303;
+			
+			// aapt resource value: 0x7f01014c
+			public const int thumbShadowColor = 2130772300;
+			
+			// aapt resource value: 0x7f01014d
+			public const int thumbShadowXOffset = 2130772301;
+			
+			// aapt resource value: 0x7f01014e
+			public const int thumbShadowYOffset = 2130772302;
 			
 			// aapt resource value: 0x7f0100dd
 			public const int thumbTextPadding = 2130772189;
@@ -2793,6 +4758,9 @@ namespace XamlKeypad.Droid
 			
 			// aapt resource value: 0x7f010118
 			public const int useCompatPadding = 2130772248;
+			
+			// aapt resource value: 0x7f010142
+			public const int valuesAboveThumbs = 2130772290;
 			
 			// aapt resource value: 0x7f0100d7
 			public const int voiceIcon = 2130772183;
@@ -3986,8 +5954,17 @@ namespace XamlKeypad.Droid
 			// aapt resource value: 0x7f0200a0
 			public const int mr_ic_play_light = 2130837664;
 			
+			// aapt resource value: 0x7f0200a4
+			public const int notification_template_icon_bg = 2130837668;
+			
 			// aapt resource value: 0x7f0200a1
-			public const int notification_template_icon_bg = 2130837665;
+			public const int seek_thumb_disabled = 2130837665;
+			
+			// aapt resource value: 0x7f0200a2
+			public const int seek_thumb_normal = 2130837666;
+			
+			// aapt resource value: 0x7f0200a3
+			public const int seek_thumb_pressed = 2130837667;
 			
 			static Drawable()
 			{
@@ -4711,6 +6688,12 @@ namespace XamlKeypad.Droid
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f080027
+			public const int ApplicationName = 2131230759;
+			
+			// aapt resource value: 0x7f080026
+			public const int Hello = 2131230758;
+			
 			// aapt resource value: 0x7f08000f
 			public const int abc_action_bar_home_description = 2131230735;
 			
@@ -4768,6 +6751,9 @@ namespace XamlKeypad.Droid
 			// aapt resource value: 0x7f080021
 			public const int abc_toolbar_collapse_description = 2131230753;
 			
+			// aapt resource value: 0x7f080028
+			public const int app_name = 2131230760;
+			
 			// aapt resource value: 0x7f080023
 			public const int appbar_scrolling_view_behavior = 2131230755;
 			
@@ -4777,8 +6763,14 @@ namespace XamlKeypad.Droid
 			// aapt resource value: 0x7f080025
 			public const int character_counter_pattern = 2131230757;
 			
-			// aapt resource value: 0x7f080026
-			public const int library_name = 2131230758;
+			// aapt resource value: 0x7f08002a
+			public const int demo_max_label = 2131230762;
+			
+			// aapt resource value: 0x7f080029
+			public const int demo_min_label = 2131230761;
+			
+			// aapt resource value: 0x7f08002b
+			public const int library_name = 2131230763;
 			
 			// aapt resource value: 0x7f080000
 			public const int mr_button_content_description = 2131230720;
@@ -7191,6 +9183,104 @@ namespace XamlKeypad.Droid
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
+			
+			public static int[] RangeSliderControl = new int[] {
+					2130772284,
+					2130772285,
+					2130772286,
+					2130772287,
+					2130772288,
+					2130772289,
+					2130772290,
+					2130772291,
+					2130772292,
+					2130772293,
+					2130772294,
+					2130772295,
+					2130772296,
+					2130772297,
+					2130772298,
+					2130772299,
+					2130772300,
+					2130772301,
+					2130772302,
+					2130772303,
+					2130772304,
+					2130772305,
+					2130772306,
+					2130772307};
+			
+			// aapt resource value: 1
+			public const int RangeSliderControl_absoluteMaxValue = 1;
+			
+			// aapt resource value: 0
+			public const int RangeSliderControl_absoluteMinValue = 0;
+			
+			// aapt resource value: 20
+			public const int RangeSliderControl_activateOnDefaultValues = 20;
+			
+			// aapt resource value: 10
+			public const int RangeSliderControl_activeColor = 10;
+			
+			// aapt resource value: 5
+			public const int RangeSliderControl_alwaysActive = 5;
+			
+			// aapt resource value: 8
+			public const int RangeSliderControl_barHeight = 8;
+			
+			// aapt resource value: 9
+			public const int RangeSliderControl_defaultColor = 9;
+			
+			// aapt resource value: 7
+			public const int RangeSliderControl_internalPadding = 7;
+			
+			// aapt resource value: 3
+			public const int RangeSliderControl_maxThumbHidden = 3;
+			
+			// aapt resource value: 2
+			public const int RangeSliderControl_minThumbHidden = 2;
+			
+			// aapt resource value: 4
+			public const int RangeSliderControl_showRangeLabels = 4;
+			
+			// aapt resource value: 21
+			public const int RangeSliderControl_stepValue = 21;
+			
+			// aapt resource value: 22
+			public const int RangeSliderControl_stepValueContinuously = 22;
+			
+			// aapt resource value: 11
+			public const int RangeSliderControl_textAboveThumbsColor = 11;
+			
+			// aapt resource value: 23
+			public const int RangeSliderControl_textSize = 23;
+			
+			// aapt resource value: 14
+			public const int RangeSliderControl_thumbDisabled = 14;
+			
+			// aapt resource value: 12
+			public const int RangeSliderControl_thumbNormal = 12;
+			
+			// aapt resource value: 13
+			public const int RangeSliderControl_thumbPressed = 13;
+			
+			// aapt resource value: 15
+			public const int RangeSliderControl_thumbShadow = 15;
+			
+			// aapt resource value: 19
+			public const int RangeSliderControl_thumbShadowBlur = 19;
+			
+			// aapt resource value: 16
+			public const int RangeSliderControl_thumbShadowColor = 16;
+			
+			// aapt resource value: 17
+			public const int RangeSliderControl_thumbShadowXOffset = 17;
+			
+			// aapt resource value: 18
+			public const int RangeSliderControl_thumbShadowYOffset = 18;
+			
+			// aapt resource value: 6
+			public const int RangeSliderControl_valuesAboveThumbs = 6;
 			
 			public static int[] RecyclerView = new int[] {
 					16842948,
