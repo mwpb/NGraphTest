@@ -43,28 +43,22 @@ type Line(startPoint:Point,endPoint:Point) =
 
 type NGraph(slider:Slider,lines:Line list,plots:Formula list,bb:BoundingBox,grid:GraphGrid) as self =
     inherit NControlView(BackgroundColor = Color.White)
-    let mutable sliderValue = slider.Value |> float
-    let getLines (evalMap) = lines |> List.map (fun x -> x.Ev(evalMap))
+    let mutable evalList = ['k',slider.Value |> FL]
+    let mutable evalMap = evalList |> Map.ofList
     do  slider.ValueChanged.Add(
             fun x ->
-                Debug.WriteLine (sprintf "slider changed to: %f" x.NewValue)
-                sliderValue <- (x.NewValue |> float )/1000.0
+                let input = (x.NewValue |> float )/1000.0
+                evalList <- ['k',input |> FL]
+                evalMap <- evalList |> Map.ofList
                 self.Invalidate()
                 )
     override this.Draw (canvas:NGraphics.ICanvas,rect:NGraphics.Rect) =
-        let evalMap = ['k',sliderValue |> FL] |> Map.ofList
         let encodePoint (p:Point) =
-            let x,y = p.X,p.Y
-            let newX = (Float rect.Left) + ((x-bb.XMin)/(bb.Width))*(Float (rect.Right-rect.Left))
-            let newY = (Float rect.Top) + ((bb.YMax-y)/(bb.Height))*(Float (rect.Bottom-rect.Top))
+            let newX = (Float rect.Left) + ((p.X-bb.XMin)/(bb.Width))*(Float (rect.Right-rect.Left))
+            let newY = (Float rect.Top) + ((bb.YMax-p.Y)/(bb.Height))*(Float (rect.Bottom-rect.Top))
             NGraphics.Point(newX.toFl(evalMap),newY.toFl(evalMap))        
-        let tests() =
-            Debug.WriteLine (sprintf "rect.top: %f" rect.Top)
-            Debug.WriteLine (sprintf "rect.bottom: %f" rect.Bottom)
-            Debug.WriteLine (sprintf "rect.left: %f" rect.Left)
-            Debug.WriteLine (sprintf "rect.right: %f" rect.Right)
         let plotFunctions() =
-            let xEval (input:float) = ['x',input |> FL;'k',sliderValue |> FL] |> Map.ofList
+            let xEval (input:float) = (['x',input |> FL] @ evalList) |> Map.ofList
             plots
             |> List.iter (
                 fun plot ->
@@ -91,7 +85,6 @@ type NGraph(slider:Slider,lines:Line list,plots:Formula list,bb:BoundingBox,grid
             let midTop = Point(Float 0.0,bb.YMax) |> encodePoint
             canvas.DrawLine(midLeft,midRight, NGraphics.Colors.Black);
             canvas.DrawLine(midBottom,midTop, NGraphics.Colors.Black);
-        //tests()
         createAxes()
         drawLines()
         plotFunctions()
