@@ -11,6 +11,14 @@ open Xamarin.RangeSlider.Forms
 open XamarinHelpers
 open GraphTypes
 
+[<AutoOpen>]
+module Timer =
+    let time s f =
+        let stopWatch = System.Diagnostics.Stopwatch.StartNew()
+        f()
+        stopWatch.Stop()
+        Debug.WriteLine (s + " took: "+stopWatch.Elapsed.TotalMilliseconds.ToString())
+
 type MathSlider(g:GSlider) =
     inherit ContentView()
     let mutable currentValue = g.Initial
@@ -28,6 +36,10 @@ type NGraphView(initParams: (char*float) list, graphDef: Graph) as self =
     inherit NControlView(BackgroundColor = Color.White)
     let graphics, bb, grid = graphDef.Graphics, graphDef.BB, graphDef.Grid
     let mutable paramMap = initParams
+
+    let mutable axesPath, gridPath = Path(), Path()
+    let (graphPaths:Path[]) = Array.zeroCreate graphics.Length
+
     let evFl (f:Formula) (m:(char * float) list) =
         m
         |> List.map (function (c, f) -> (c, FL f))
@@ -43,70 +55,70 @@ type NGraphView(initParams: (char*float) list, graphDef: Graph) as self =
             let newY = (Float rect.Top) + ((bb.YMax-p.Y)/(bb.Height))*(Float (rect.Bottom-rect.Top))
             Point(evFl newX paramMap, evFl newY paramMap)
         
-        let draw = function
+        let getPath i g =
+            graphPaths.[i] <-
+            match g with
             | GPlot (f,c) ->
+                let path = Path(Pen(Color = c, Width= 3.))
                 let wholeMap (input:float) = (['x',input] @ paramMap)
-                let pathOpList = System.Collections.Generic.List<PathOp>()
                 let stepSize = (evFl bb.Width paramMap)/100.0
                 let xmin = evFl bb.XMin paramMap
-                pathOpList.Add(MoveTo(toPoint(P(xmin, evFl f (wholeMap xmin)))))
-                let xs = [0..100] |> List.map (fun i -> xmin + (float i)*stepSize)
-                for x in xs do
-                    pathOpList.Add(LineTo(toPoint(P(x, evFl f (wholeMap x)))))
-                let pen = Pen(c).WithWidth(3.0)
-                canvas.DrawPath(pathOpList,pen)
+                path.MoveTo(toPoint(P(xmin, evFl f (wholeMap xmin))))
+                for i = 0 to 100 do
+                    let x = xmin + (float i)*stepSize
+                    path.LineTo(toPoint(P(x, evFl f (wholeMap x))))
+                path
             | GSegment (p1,p2,c) ->
-                let pen = Pen().WithWidth(3.0).WithColor(c)
-                canvas.DrawLine(toPoint(p1), toPoint(p2),pen)
+                let path = Path(Pen(Color = c, Width= 3.))
+                path.MoveTo (toPoint(p1))
+                path.LineTo (toPoint(p2))
+                path
 
-        let createAxes() =
+        let getAxes() =
+            let path = Path(Pen(Color = Colors.DarkGray ))
             if grid.ShowAxes then
                 let midLeft = P(bb.XMin,Float 0.0) |> toPoint
                 let midRight = P(bb.XMax,Float 0.0) |> toPoint
                 let midBottom = P(Float 0.0,bb.YMin) |> toPoint
                 let midTop = P(Float 0.0,bb.YMax) |> toPoint
-                canvas.DrawLine(midLeft,midRight, NGraphics.Colors.Black);
-                canvas.DrawLine(midBottom,midTop, NGraphics.Colors.Black);
+                path.MoveTo(midLeft);   path.LineTo(midRight)
+                path.MoveTo(midBottom); path.LineTo(midTop)
             if grid.ShowGrid then
+                let path = Path(Pen(Color = NGraphics.Color.FromRGB(0.9,0.9,0.9) ))
                 let xmin = evFl bb.XMin initParams
                 let xmax = evFl bb.XMax initParams
-                let xs = [Math.Floor xmin..grid.AxisXSep..Math.Floor xmax]
-//                Debug.WriteLine grid.GridXSep
-//                Debug.WriteLine (sprintf "%A" xs)
-                let pen = Pen().WithColor(Colors.LightGray)
-                for i in xs do
-                    canvas.DrawLine(toPoint(P(i,bb.YMin)),toPoint(P(i,bb.YMax)),pen)
+                for s in [Math.Floor xmin..grid.AxisXSep..Math.Floor xmax] do
+                    P(s,bb.YMin) |> toPoint |> path.MoveTo
+                    P(s,bb.YMax) |> toPoint |> path.LineTo
                 let ymin = evFl bb.YMin initParams
                 let ymax = evFl bb.YMax initParams
-                let ys = [Math.Floor ymin..grid.AxisYSep..Math.Floor ymax]
-//                Debug.WriteLine grid.GridXSep
-//                Debug.WriteLine (sprintf "%A" xs)
-                let pen = Pen().WithColor(Colors.LightGray)
-                for j in ys do
-                    canvas.DrawLine(toPoint(P(bb.XMin,j)),toPoint(P(bb.XMax,j)),pen)
+                for y in [Math.Floor ymin..grid.AxisYSep..Math.Floor ymax] do
+                    P(bb.XMin,y) |> toPoint |> path.MoveTo
+                    P(bb.XMax,y) |> toPoint |> path.LineTo
+                gridPath <- path
             if grid.ShowAxes then
                 let xmin = evFl bb.XMin initParams
                 let xmax = evFl bb.XMax initParams
-                let xs = [Math.Floor xmin..grid.AxisXSep..Math.Floor xmax]
-//                Debug.WriteLine grid.GridXSep
-//                Debug.WriteLine (sprintf "%A" xs)
-//                Debug.WriteLine (xs.Length.ToString())
-                let pen = Pen().WithColor(Colors.Black)
-                for i in xs do
-                    canvas.DrawLine(toPoint(P(i,-0.1)),toPoint(P(i,0.1)),pen)
+                for x in [Math.Floor xmin..grid.AxisXSep..Math.Floor xmax] do
+                    path.MoveTo(P(x,-0.1) |> toPoint)
+                    path.LineTo(P(x,0.1) |> toPoint)
                 let ymin = evFl bb.YMin initParams
                 let ymax = evFl bb.YMax initParams
-                let ys = [Math.Floor ymin..grid.AxisYSep..Math.Floor ymax]
+                for y in [Math.Floor ymin..grid.AxisYSep..Math.Floor ymax] do
+                    path.MoveTo(P(-0.1,y) |> toPoint)
+                    path.LineTo(P(0.1,y) |> toPoint)
 //                Debug.WriteLine grid.GridXSep
 //                Debug.WriteLine (sprintf "%A" xs)
-                let pen = Pen().WithColor(Colors.Black)
 //                canvas.DrawText("HI",NGraphics.Rect(100.0,100.0,50.0,150.0),NGraphics.Font(),NGraphics.TextAlignment.Left,NGraphics.Colors.Black)
-                for j in ys do
-                    canvas.DrawLine(toPoint(P(-0.1,j)),toPoint(P(0.1,j)),pen)
-//                    canvas.DrawText("1",toPoint(P(-0.2,j)),Font("Georgia",10.0),Colors.Black)
-                
-        createAxes()
-        graphics |> List.iter draw
+            axesPath <- path
+            //canvas.DrawText("1",toPoint(P(1.,-0.5)),Font("Georgia",10.0),Colors.Black)        
+        (fun () ->
+            getAxes(); axesPath.Draw(canvas); gridPath.Draw(canvas)
+            ) |> time "creating axes"
+        (fun () ->
+            graphics |> List.iteri (fun i g -> getPath i g)
+            graphPaths |> Array.iter (fun p -> p.Draw(canvas))
+            ) |> time "plotting functions"
 
 type NDisplay(graphDefs: Graph list, sliderDefs: GSlider list) =
     inherit ContentView()

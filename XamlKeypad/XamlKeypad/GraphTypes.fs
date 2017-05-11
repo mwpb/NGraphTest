@@ -40,7 +40,7 @@ type BoundingBox() =
 
 type GraphGrid() =
     member val ShowAxes = true with get, set
-    member val ShowGrid = false with get, set
+    member val ShowGrid = true with get, set
     member val GridXSep = 0.1 with get, set
     member val GridYSep = 0.1 with get, set
     member val AxisXSep = 1.0 with get, set
